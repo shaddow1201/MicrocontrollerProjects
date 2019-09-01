@@ -6,8 +6,6 @@ const byte muxPinA = 9;
 const byte muxPinB = 10;
 const byte muxPinC = 11;
 
-int val = 0;
-
 void setup() {
   // LED SETUP
   pinMode(LEDPin, OUTPUT);
@@ -26,6 +24,7 @@ int readSensor (const byte port){
   return analogRead (SensorPin);
 }
 
+float voltage = 0.0;
 
 void loop() {
   for (byte i = 0; i < 7; i++){
@@ -33,8 +32,9 @@ void loop() {
       Serial.print ("Sensor ");
       Serial.print (i);
       Serial.print (" reads: ");
-      float voltage = readSensor(i) * (5.0 /1023.0);
+      voltage = readSensor(i) * (5.0 /1023.0);
       Serial.println (voltage);
+      delay(500);
     }
   }
   delay(1000);
