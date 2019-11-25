@@ -6,26 +6,12 @@ long onTime;      // milliseconds of on-time
 byte dataArray[9]; // array  to handle the 74595 chip states
 
 void LedArrayRoll(){
+  for (int i=0; i < 9; i++){
+    shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[i]);
+    delay(100);
+  }
   shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[0]);
   delay(100);
-  shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[1]);
-  delay(100);
-  shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[2]);
-  delay(100);
-  shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[3]);
-  delay(100);
-  shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[4]);
-  delay(100);
-  shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[5]);
-  delay(100);
-  shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[6]);
-  delay(100);
-  shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[7]);
-  delay(100);
-  shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[8]);
-  delay(100);
-  shiftOut(DATA_PIN, CLK_PIN, MSBFIRST, dataArray[0]);
-  
 }
 
 void setup() 
