@@ -1,11 +1,11 @@
 # Integrated Circuits (IC's)
 
 ## IC's and their function.
-[74HC595 8 Bit Shift Register With 3 State Output Registers](#74hc595-8-bit-shift-register-with-3-state-output-registers)
-[74HC164 High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register](#74hc164-high-speed-cmos-logic-8-bit-serial-in-parallel-out-shift-register)
-[74HC165 High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register](#74hc165-high-speed-cmos-logic-8-bit-parallel-in-serial-out-shift-register)
-[74HC138 High Speed CMOS Logic 3-to-8 Line Decoder Demultiplexer Inverting/Non-Inverting](#74hc138-high-speed-cmos-logic-3-to-8-line-decoder-demultiplexer-inverting-non-inverting)
-[74HC132 High Speed CMOS Logic Quad 2-Input Schmitt-Triggered NAND Gates](#74hc132-high-speed-cmos-logic-quad-2-input-schmitt-triggered-nand-gates)
+[74HC595 8 Bit Shift Register With 3 State Output Registers](#74hc595-8-bit-shift-register-with-3-state-output-registers)  
+[74HC164 High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register](#74hc164-high-speed-cmos-logic-8-bit-serial-in-parallel-out-shift-register)  
+[74HC165 High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register](#74hc165-high-speed-cmos-logic-8-bit-parallel-in-serial-out-shift-register)  
+[74HC138 High Speed CMOS Logic 3-to-8 Line Decoder Demultiplexer Inverting/Non-Inverting](#74hc138-high-speed-cmos-logic-3-to-8-line-decoder-demultiplexer-inverting-non-inverting)  
+[74HC132 High Speed CMOS Logic Quad 2-Input Schmitt-Triggered NAND Gates](#74hc132-high-speed-cmos-logic-quad-2-input-schmitt-triggered-nand-gates)  
 [74HC126](#74hc126)
 
 ## Details for each Integrated Circuit
