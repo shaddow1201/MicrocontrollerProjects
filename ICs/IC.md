@@ -8,7 +8,7 @@
 
 ## Details for each Integrated Circuit
 
-### <a name="74HC595"></a>74HC595 - 8-Bit Shift Register With 3-State Output Registers
+### 74HC595 - 8-Bit Shift Register With 3-State Output Registers
 
     RelayDriver - use of the 74HC595 output shift register, with a relay class build to handle functionality.
     3 Code pins:
@@ -18,7 +18,7 @@
 
     #### TestCode: Code uses a class based approach and no delay function calls.
 
-### <a name="74HC164"></a>74HC164 - High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register
+### 74HC164 - High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register
 
     2 Code pins:
         Data_Pin - Input Data Pin
@@ -26,7 +26,7 @@
     
     #### TestCode: Simple Test Code
 
-### <a name="74HC165"></a> 74HC165 - High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register
+### 74HC165 - High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register
 
     3 Code pins:
         SO - Serial output pin
