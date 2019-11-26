@@ -1,10 +1,10 @@
 # Integrated Circuits (IC's)
 
 ## IC's and their function.
-    * [74HC164](#74HC164) - High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register
-    * [74HC165](#74HC165) - High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register
-    * [74HC595](#74HC595) - 8-Bit Shift Register With 3-State Output Registers
-    * 
+    [74HC164](#74HC164) - High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register
+    [74HC165](#74HC165) - High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register
+    [74HC595](#74HC595) - 8-Bit Shift Register With 3-State Output Registers
+    
 
 ## Details for each Integrated Circuit
 
