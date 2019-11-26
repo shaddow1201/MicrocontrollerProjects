@@ -25,8 +25,10 @@
         Data_Pin - Input Data Pin
         Clock_Pin - Clock Pin
     
-    TestCode: [Simple Test Code](./74HC164/74HC164.ino)
-
+    [74HC164 Data Sheet](74HC164/74HC_HCT164.pdf)
+    [74HC164 Wiring](74HC164/wiring.png)
+    [74HC164 Simple Test Code](./74HC164/74HC164.ino)
+    ![74HC164 Simple Test Video](./74HC164/20191124_204709.mp4)
 
 #### 74HC165 High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register
 
