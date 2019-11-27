@@ -33,6 +33,8 @@ void resetLEDs(){
   digitalWrite(input8, HIGH);
 }
 
+
+
 void loop() {
   resetLEDs();
   Serial.println("All LED's should be off");
