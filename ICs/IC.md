@@ -41,40 +41,158 @@ I bought an 'assortment' back of IC in the 74HCXXX hi speed SI-Gate CMOS Logic I
 
 #### 74HC00 High Speed CMOS Logic Quad 2-Input NAND Gates
 
+- Description - The SN54HC00 and SN74HC00 devices contain four independent, 2-input NAND gates. They perform the Boolean function Y = A × B or Y = A + B in positive logic.
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- 74HC00 Wiring  
+
+**Type**|**Arduino Pin**|**IC pin**
+-----|-----|-----
+input 1| 2 | 1
+input 2| 3| 2
+output 1| XX | 3
+input 3| 4| 4
+input 4| 5| 5
+output 2| XX | 6
+Gnd| Gnd | 7
+output 3| XX | 8
+input 5| 6| 9
+input 6| 7| 10
+output 4 | XX | 11
+input 7| 8| 12
+input 8| 9| 13
+VCC | 5V | 14
+
+- [74HC00 Simple Test Code](74HC00/74HC00.ino)  
+
+- Materials 
+  - Arduino, LEDs, resistors
+- Notes - tested first with 8 pin switches, and then tested it with the arduino.
+  
 #### 74HC02 High Speed CMOS Logic Quad 2-Input NOR Gates
+
+- Description - The SNx4HC02 devices contain four independent 2-input NOR gates. They perform the Boolean function Y = A + B or Y = A • B in positive logic.
+- [74HC02 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc02.pdf)
+- [74HC02 Wiring]()  
+- [74HC02 Simple Test Code]()  
+- Materials 
+- Notes
 
 #### 74HC04 High Speed CMOS Logic Hex Inverters
 
+- Description - The SNx4HC04 devices contain six independent inverters. They perform the Boolean function Y = A in positive logic.
+- [74HC04 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc04.pdf)
+- [74HC04 Wiring]()  
+- [74HC04 Simple Test Code]()  
+- Materials 
+- Notes
+  
 #### 74HC05 Hex Inverters With Open-Drain Outputs
+
+- Description - The SNx4HC05 devices contain six independent inverters. They perform the Boolean function Y = A in positive logic. The open-drain outputs require pullup resistors to perform correctly. They may be connected to other open-drain outputs to implement active-low wired-OR or active-high wired-AND functions.
+- [74HC05 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc05.pdf)
+- [74HC05 Wiring]()  
+- [74HC05 Simple Test Code]()  
+- Materials 
+- Notes
 
 #### 74HC08 High Speed CMOS Logic Quad 2-Input AND Gates
 
+- Description - The SNx4HC08 devices contain four independent 2-input AND gates. They perform the Boolean function Y = A • B or Y = A + B in positive logic.
+- [74HC08 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc08.pdf)
+- [74HC08 Wiring]()  
+- [74HC08 Simple Test Code]()  
+- Materials 
+- Notes
+  
 #### 74HC10 Triple 3-Input Positive-NAND Gates
 
+- Description - The ’HC10 devices contain three independent 3-input NAND gates. They perform the Boolean function Y = (A • B • C)\ or Y = A\ + B\ + C\ in positive logic.
+- [74HC10 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc10.pdf)
+- [74HC10 Wiring]()  
+- [74HC10 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC14 Hex Schmitt-Trigger Inverters
+
+- Description - The SNx4HC14 are Schmitt-trigger devices that contain six independent inverters. They perform the Boolean function Y = A in positive logic.
+- [74HC14 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc14.pdf)
+- [74HC14 Wiring]()  
+- [74HC14 Simple Test Code]()  
+- Materials 
+- Notes
 
 #### 74HC21 Dual 4-Input Positive-AND Gates
 
+- Description - These devices contain two independent 4-input AND gates. They perform the Boolean function Y = A • B • C • D or Y = (A\ + B\ + C\ + D\)\ in positive logic.
+- [74HC21 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc21.pdf)
+- [74HC21 Wiring]()  
+- [74HC21 Simple Test Code]()  
+- Materials 
+- Notes
+
 #### 74HC30 High Speed CMOS Logic 8-Input NAND Gate
 
+- Description - The ’HC30 and ’HCT30 each contain an 8-input NAND gate in one package. They provide the system designer with the direct implementation of the positive logic 8-input NAND function. Logic gates utilize silicon gate CMOS technology to achieve operating speeds similar to LSTTL gates with the low power consumption of standard CMOS integrated circuits. All devices have the ability to drive 10 LSTTL loads. The HCT logic family is functionally pin compatible with the standard LS logic family.
+- [74HC30 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc30.pdf)
+- [74HC30 Wiring]()  
+- [74HC30 Simple Test Code]()  
+- Materials 
+- Notes
+  
 #### 74HC32 Quadruple 2-Input Positive-OR Gates
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC125 High Speed CMOS Logic Quad Buffers with 3-State Outputs
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC126 High Speed CMOS Logic Quad Buffers with 3-State Outputs
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC132 High Speed CMOS Logic Quad 2-Input Schmitt-Triggered NAND Gates
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC138 High Speed CMOS Logic 3-to-8 Line Decoder Demultiplexer Inverting and Non-Inverting
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC139 High Speed CMOS Logic Dual 2-to-4 Line Decoders/Demultiplexers
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC157 High Speed CMOS Logic Quad 2-Input Multiplexers
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC163 High Speed CMOS Logic 4-Bit Binary Counter with Synchronous Reset
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC164 High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register
 
 - Description - These 8-bit shift registers feature AND-gated serial inputs and an asynchronous clear (CLR) input. The gated serial (A and B) inputs permit complete control over incoming data; a low at either input inhibits entry of the new data and resets the first flip-flop to the low level at the next clock (CLK) pulse. A high-level input enables the other input, which then determines the state of the first flip-flop. Data at the serial inputs can be changed while CLK is high or low, provided the minimum set-up time requirements are met. Clocking occurs on the low-to-high-level transition of CLK.
@@ -105,23 +223,59 @@ I bought an 'assortment' back of IC in the 74HCXXX hi speed SI-Gate CMOS Logic I
 - Notes: easy input for high/low digital reads.
   
 #### 74HC174 High Speed CMOS Logic Hex D-Type Flip-Flops with Reset
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC244 High Speed CMOS Logic Non-Inverting Octal Buffers/Line Drivers with 3-State Outputs
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC245 High Speed CMOS Logic Non-Inverting Octal-Bus Transceivers with 3-State Outputs
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC273 High Speed CMOS Logic Octal D-Type Flip-Flops with Reset
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC373 High Speed CMOS Logic Octal Transparent Latches with 3-State Outputs
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC374 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC393 High Speed CMOS Logic Dual 4-Stage Binary Counters
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC573 High Speed CMOS Logic Octal Transparent Latches with 3-State Outputs
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC574 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs
-
+- [74HC00 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc00.pdf)
+- [74HC00 Wiring]()  
+- [74HC00 Simple Test Code]()  
+- Materials 
+- Notes
 #### 74HC595 8 Bit Shift Register With 3 State Output Registers
 - Description - The SNx4HC595 devices contain an 8-bit, serial-in, parallel-out shift register that feeds an 8-bit D-type storage register. The storage register has parallel 3-state outputs. Separate clocks are provided for both the shift and storage register. The shift register has a direct overriding clear (SRCLR) input, serial (SER) input, and serial outputs for cascading. When the output-enable (OE) input is high, the outputs are in the high-impedance state.
 - [74HC595 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc595.pdf)
