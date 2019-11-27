@@ -1,10 +1,9 @@
 # Integrated Circuits (IC's)
 I bought an 'assortment' back of IC in the 74HCXXX hi speed SI-Gate CMOS Logic ICs, and though i'd see if i could put some simple coding together, in an attempt to become 'quickly' familiar with reading tech docs etc, because practice certainly helps in limiting mistakes later on.
 
-## IC's, their logic, and details on coding and usage.  
+## IC's Logic Description, DataSheet, Wiring, Codee, Usage Example, Materials and Notes
 
 ### 74HCXXX Series
-
 -[74HC00 High Speed CMOS Logic Quad 2-Input NAND Gates](#74HC00-High-Speed-CMOS-Logic-Quad-2-Input-NAND-Gates)  
 -[74HC02 High Speed CMOS Logic Quad 2-Input NOR Gates](#74HC02-High-Speed-CMOS-Logic-Quad-2-Input-NOR-Gates)  
 -[74HC04 High Speed CMOS Logic Hex Inverters](#74HC04-High-Speed-CMOS-Logic-Hex-Inverters)  
@@ -14,7 +13,7 @@ I bought an 'assortment' back of IC in the 74HCXXX hi speed SI-Gate CMOS Logic I
 -[74HC14 Hex Schmitt-Trigger Inverters](#74HC14-Hex-Schmitt-Trigger-Inverters)  
 -[74HC21 Dual 4-Input Positive-AND Gates](#74HC21-Dual-4-Input-Positive-AND-Gates)  
 -[74HC30 High Speed CMOS Logic 8-Input NAND Gate](#74HC30-High-Speed-CMOS-Logic-8-Input-NAND-Gate)  
--[74HC32 Quadruple 2-Input Positive-OR Gates](#74HC32-Quadruple-2-Input-Positive-OR-Gates) 
+-[74HC32 Quadruple 2-Input Positive-OR Gates](#74HC32-Quadruple-2-Input-Positive-OR-Gates)  
 -[74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset](#74HC74-Dual-D-Type-Positive-Edge-Triggered-Flip-Flops-With-Clear-and-Preset)  
 -[74HC125 High Speed CMOS Logic Quad Buffers with 3-State Outputs](#74HC125-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs)  
 -[74HC126 High Speed CMOS Logic Quad Buffers with 3-State Outputs](#74HC126-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs)  
@@ -78,22 +77,33 @@ I bought an 'assortment' back of IC in the 74HCXXX hi speed SI-Gate CMOS Logic I
 
 #### 74HC164 High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register
 
--2 Code pins:  
-    Data_Pin - Input Data Pin  
-    Clock_Pin - Clock Pin  
+- Description - These 8-bit shift registers feature AND-gated serial inputs and an asynchronous clear (CLR) input. The gated serial (A and B) inputs permit complete control over incoming data; a low at either input inhibits entry of the new data and resets the first flip-flop to the low level at the next clock (CLK) pulse. A high-level input enables the other input, which then determines the state of the first flip-flop. Data at the serial inputs can be changed while CLK is high or low, provided the minimum set-up time requirements are met. Clocking occurs on the low-to-high-level transition of CLK.
 - [74HC164 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc164.pdf)
 - [74HC164 Wiring](74HC164/wiring.png)  
-- [74HC164 Simple Test Code](./74HC164/74HC164.ino)  
-- ![74HC164 Test Video](74HC164/74HC164.mp4)  
+- [74HC164 Simple Test Code](74HC164/74HC164.ino)  
+  -2 Code pins:  
+    -Data_Pin - Input Data Pin  
+    -Clock_Pin - Serial Clock Pin  
+- ![74HC164 Test Video](74HC164/74HC164.mp4)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes: seems a little easier to use than the 75HC595, and can be chained.  
 
 #### 74HC165 High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register
 
+- Description - The SNx4HC165 devices are 8-bit parallel-load shift registers that, when clocked, shift the data toward a serial (QH) output. Parallel-in access to each stage is provided by eight individual direct data (A–H) inputs that are enabled by a low level at the shift/load (SH/LD) input. The SNx4HC165 devices also feature a clock-inhibit (CLK INH) function and a complementary serial (QH) output.
+
+  Clocking is accomplished by a low-to-high transition of the clock (CLK) input while SH/LD is held high and CLK INH is held low. The functions of CLK and CLK INH are interchangeable. Because a low CLK and a low-to-high transition of CLK INH also accomplish clocking, CLK INH must be changed to the high level only while CLK is high. Parallel loading is inhibited when SH/LD is held high. While SH/LD is low, the parallel inputs to the register are enabled independently of the levels of the CLK, CLK INH, or serial (SER) inputs.
+- [74HC165 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc165.pdf)
+- [74HC165 Wiring](74HC165/wiring.JPG)
+- [74HC165 Simple Test Code](74HC165/74HC165.ino)
     3 Code pins:
         SO - Serial output pin
-        SH_LD - 
+        SH_LD - Causes triggering of parallel read
         CLK - Clock Pin
-    #### TestCode: Simple Test Code
-
+- [74HC165 Output Example](74HC165/dataOutput.png)
+- Notes: easy input for high/low digital reads.
+  
 #### 74HC174 High Speed CMOS Logic Hex D-Type Flip-Flops with Reset
 
 #### 74HC244 High Speed CMOS Logic Non-Inverting Octal Buffers/Line Drivers with 3-State Outputs
@@ -112,14 +122,24 @@ I bought an 'assortment' back of IC in the 74HCXXX hi speed SI-Gate CMOS Logic I
 
 #### 74HC574 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs
 
-### 74HC595 8 Bit Shift Register With 3 State Output Registers
+#### 74HC595 8 Bit Shift Register With 3 State Output Registers
+- Description - The SNx4HC595 devices contain an 8-bit, serial-in, parallel-out shift register that feeds an 8-bit D-type storage register. The storage register has parallel 3-state outputs. Separate clocks are provided for both the shift and storage register. The shift register has a direct overriding clear (SRCLR) input, serial (SER) input, and serial outputs for cascading. When the output-enable (OE) input is high, the outputs are in the high-impedance state.
+- [74HC595 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc595.pdf)
+- [74HC595 Wiring]()
+- [74HC595 Simple Test Code]()
+    3 Code pins:
+        SO - Serial output pin
+        SH_LD - Causes triggering of parallel read
+        CLK - Clock Pin
+- [74HC595 Output Example]()
+- Notes: easy input for high/low digital reads.
     RelayDriver - use of the 74HC595 output shift register, with a relay class build to handle functionality.
     3 Code pins:
         SER_Pin - Serial pin
         RCLK_Pin - Latch pin
         SRCLK_Pin - Clock Pin
+- Materials:
 
-    #### TestCode: Code uses a class based approach and no delay function calls.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
