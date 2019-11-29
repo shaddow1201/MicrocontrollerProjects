@@ -11,7 +11,7 @@ I bought an 'assortment' back of IC in the 74HCXXX hi speed SI-Gate CMOS Logic I
 - Notes - any comparrisons or observations.
 - Project Links
 
-### 74HCXXX Series
+### 74HCXXX Series Links
 -[74HC00 High Speed CMOS Logic Quad 2-Input NAND Gates](#74HC00-High-Speed-CMOS-Logic-Quad-2-Input-NAND-Gates)  
 -[74HC02 High Speed CMOS Logic Quad 2-Input NOR Gates](#74HC02-High-Speed-CMOS-Logic-Quad-2-Input-NOR-Gates)  
 -[74HC04 High Speed CMOS Logic Hex Inverters](#74HC04-High-Speed-CMOS-Logic-Hex-Inverters)  
@@ -125,11 +125,64 @@ VCC | 5V | 14 | arduino 5v to IC
 
 - Description - The SNx4HC08 devices contain four independent 2-input AND gates. They perform the Boolean function Y = A • B or Y = A + B in positive logic.
 - [74HC08 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc08.pdf)
+- 74HC08 Wiring  
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1 | 2 | 1 | arduino to IC
+input 2 | 3 | 2 | arduino to IC
+output 1 | XX | 3 | to LED 1
+input 3 | 4 | 4 | arduino to IC
+input 4 | 5 | 5 | arduino to IC
+output 2 | XX | 6 | to LED 2
+Gnd | Gnd | 7 | ardunio GND to IC 
+output 3 | XX | 8 | to LED 3
+input 5 | 6 | 9 | arduino to IC
+input 6 | 7 | 10 | arduino to IC
+output 4 | XX | 11 | to LED 4
+input 7 | 8 | 12 | arduino to IC
+input 8 | XX | 13 | arduino to IC
+VCC | 5V | 14 | arduino 5v to IC
+
+- [74HC08 Simple Test Code](74HC08/74HC08.ino)  
+- Images/Info
+  - [Serial Out](74HC08/74HC08_SerialOutput.png) - screenshot of serial output  
+  - [Image]()
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
   
 #### 74HC10 Triple 3-Input Positive-NAND Gates
 
 - Description - The ’HC10 devices contain three independent 3-input NAND gates. They perform the Boolean function Y = (A • B • C)\ or Y = A\ + B\ + C\ in positive logic.
 - [74HC10 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc10.pdf)
+- [74HC10 Function Table](74HC10/74HC10_FunctionTable.png)
+- 74HC10 Wiring  
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1 | 2 | 1 | arduino to IC
+input 2 | 3 | 2 | arduino to IC
+input 4 | 5 | 3 | arduino to IC
+input 5 | 6 | 4 | arduino to IC
+input 6 | 7 | 5 | arduino to IC
+output 2 | XX | 6 | to LED 2
+Gnd | Gnd | 7 | ardunio GND to IC
+output 3 | XX | 8 | to LED 3
+input 7 | 8 | 9 | arduino to IC
+input 8 | 9 | 10 | arduino to IC
+input 9 | 10 | 11 | arduino to IC
+output 1 | XX | 12 | to LED 1
+input 3 | 4 | 13 | arduino to IC
+VCC | 5V | 14 | arduino 5v to IC
+
+- [74HC10 Simple Test Code](74HC10/74HC10.ino)  
+- Images/Info
+  - [Serial Out](74HC10/74HC10_SerialOutput.png) - screenshot of serial output  
+  - [Image]()
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
 
 #### 74HC14 Hex Schmitt-Trigger Inverters
 
@@ -140,6 +193,32 @@ VCC | 5V | 14 | arduino 5v to IC
 
 - Description - These devices contain two independent 4-input AND gates. They perform the Boolean function Y = A • B • C • D or Y = (A\ + B\ + C\ + D\)\ in positive logic.
 - [74HC21 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc21.pdf)
+- 74HC10 Wiring 
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1 | 2 | 1 | arduino to IC
+input 2 | 3 | 2 | arduino to IC
+NC | XX | 3 | No Connection
+input 3 | 4 | 4 | arduino to IC
+input 4 | 5 | 5 | arduino to IC
+output 1 | XX | 6 | to LED 1
+Gnd | Gnd | 7 | ardunio GND to IC
+output 2 | XX | 8 | to LED 2
+input 5 | 6 | 9 | arduino to IC
+input 6 | 7 | 10 | arduino to IC
+NC | XX | 11 | No Connection
+input 7 | 8 | 12 | arduino to IC
+input 8 | 9 | 13 | arduino to IC
+VCC | 5V | 14 | arduino 5v to IC
+- [74HC21 Simple Test Code](74HC21/74HC21.ino)
+- Images/Info
+  - [Logic Function](74HC21/74HC21_FunctionTable.png)
+  - [Serial Out]() - screenshot of serial output  
+  - [Image]()
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
 
 #### 74HC30 High Speed CMOS Logic 8-Input NAND Gate
 
@@ -232,19 +311,15 @@ Power | 5V | 14 | VIN
 - [74HC595 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc595.pdf)
 - [74HC595 Wiring]()
 - [74HC595 Simple Test Code]()
-    3 Code pins:
-        SO - Serial output pin
-        SH_LD - Causes triggering of parallel read
-        CLK - Clock Pin
 - [74HC595 Output Example]()
+- Materials
 - Notes: easy input for high/low digital reads.
     RelayDriver - use of the 74HC595 output shift register, with a relay class build to handle functionality.
     3 Code pins:
         SER_Pin - Serial pin
         RCLK_Pin - Latch pin
         SRCLK_Pin - Clock Pin
-- Materials:
-
+- Other Projects:
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
