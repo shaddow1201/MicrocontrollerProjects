@@ -30,7 +30,7 @@ I bought an 'assortment' of ICs, and though i'd see if i could find out what the
 -[74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset](74HCXXX_Series.md#74HC74-Dual-D-Type-Positive-Edge-Triggered-Flip-Flops-With-Clear-and-Preset)  
 -[74HC125 High Speed CMOS Logic Quad Buffers with 3-State Outputs](74HCXXX_Series.md#74HC125-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs)  
 -[74HC126 High Speed CMOS Logic Quad Buffers with 3-State Outputs](74HCXXX_Series.md#74HC126-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs)  
--[74HC132 High Speed CMOS Logic Quad 2-Input Schmitt-Triggered NAND Gates](74HCXXX_Series.md#74hc132-high-speed-cmos-logic-quad-2-input-schmitt-triggered-nand-gates)  
+-[74HC132 High Speed CMOS Logic Quad 2-Input Schmitt-Triggered NAND Gates](74HCXXX_Series.md#74hc132-high-speed-cmos-logic-quad-2-input-schmitt-triggered-nand-gates) * Complete  
 -[74HC138 High Speed CMOS Logic 3-to-8 Line Decoder Demultiplexer Inverting/Non-Inverting](74HCXXX_Series.md#74hc138-high-speed-cmos-logic-3-to-8-line-decoder-demultiplexer-inverting-non-inverting)  
 -[74HC139 High Speed CMOS Logic Dual 2-to-4 Line Decoders/Demultiplexers](74HCXXX_Series.md#74HC139-High-Speed-CMOS-Logic-Dual-2-to-4-Line-Decoders/Demultiplexers)  
 -[74HC157 High Speed CMOS Logic Quad 2-Input Multiplexers](74HCXXX_Series.md#74HC157-High-Speed-CMOS-Logic-Quad-2-Input-Multiplexers)  

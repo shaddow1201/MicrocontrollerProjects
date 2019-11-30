@@ -3,13 +3,17 @@
 
 # Projects
 
-## OS Based
+## OS Based Projects
 
+- Temperature and Humidity Project
+  - Data Gathering
+  - Data Modeling
+  - Future Plans
 - Raspberry Pi
   - RetroPie Arcade Build - to be documented
   - [Weather Station](https://www.hackster.io/shaddow1201/raspberry-pi-weatherrack-nodejs-weather-data-station-eea19a)
 
-## Microcontroller Based
+## Microcontroller Based Projects
 
 - Arduino
   - [Garage Parking Stop Light](https://www.hackster.io/shaddow1201/garage-parking-stop-light-04ac5d)

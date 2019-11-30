@@ -8,14 +8,14 @@
 #define input8 9
 
 void resetLEDs(){
-  digitalWrite(input1, LOW);
-  digitalWrite(input2, LOW);
-  digitalWrite(input3, LOW);
-  digitalWrite(input4, LOW);
-  digitalWrite(input5, LOW);
-  digitalWrite(input6, LOW);
-  digitalWrite(input7, LOW);
-  digitalWrite(input8, LOW);
+  digitalWrite(input1, HIGH);
+  digitalWrite(input2, HIGH);
+  digitalWrite(input3, HIGH);
+  digitalWrite(input4, HIGH);
+  digitalWrite(input5, HIGH);
+  digitalWrite(input6, HIGH);
+  digitalWrite(input7, HIGH);
+  digitalWrite(input8, HIGH);
 }
 
 void setup() {
@@ -42,7 +42,7 @@ void TestOutput(int testOutput){
       Serial.println("Begin Output 1 Test");
       digitalWrite(input1, LOW);
       digitalWrite(input2, LOW);
-      Serial.println("inputs low, LED 1 should be off");
+      Serial.println("inputs low, LED 1 should be on");
       delay(2000);
       resetLEDs();
       digitalWrite(input1, HIGH);
@@ -57,7 +57,7 @@ void TestOutput(int testOutput){
       resetLEDs();
       digitalWrite(input1, HIGH);
       digitalWrite(input2, HIGH);
-      Serial.println("inputs H/H, LED 1 should be on");
+      Serial.println("inputs H/H, LED 1 should be off");
       delay(2000);
       resetLEDs();
       Serial.println("End of output 1 test");
@@ -66,7 +66,7 @@ void TestOutput(int testOutput){
       Serial.println("Begin Output 2 Test");
       digitalWrite(input3, LOW);
       digitalWrite(input4, LOW);
-      Serial.println("inputs low, LED 2 should be off");
+      Serial.println("inputs low, LED 2 should be on");
       delay(2000);
       resetLEDs();
       digitalWrite(input3, HIGH);
@@ -81,7 +81,7 @@ void TestOutput(int testOutput){
       resetLEDs();
       digitalWrite(input3, HIGH);
       digitalWrite(input4, HIGH);
-      Serial.println("inputs H/H, LED 2 should be on");
+      Serial.println("inputs H/H, LED 2 should be off");
       delay(2000);
       resetLEDs();
       Serial.println("End of output 2 test");
@@ -90,7 +90,7 @@ void TestOutput(int testOutput){
       Serial.println("Begin Output 3 Test");
       digitalWrite(input5, LOW);
       digitalWrite(input6, LOW);
-      Serial.println("inputs low, LED 3 should be off");
+      Serial.println("inputs low, LED 3 should be on");
       delay(2000);
       resetLEDs();
       digitalWrite(input5, HIGH);
@@ -105,7 +105,7 @@ void TestOutput(int testOutput){
       resetLEDs();
       digitalWrite(input5, HIGH);
       digitalWrite(input6, HIGH);
-      Serial.println("inputs H/H, LED 3 should be on");
+      Serial.println("inputs H/H, LED 3 should be off");
       delay(2000);
       resetLEDs();
       Serial.println("End of output 3 test");
@@ -114,7 +114,7 @@ void TestOutput(int testOutput){
       Serial.println("Begin Output 4 Test");
       digitalWrite(input7, LOW);
       digitalWrite(input8, LOW);
-      Serial.println("inputs low, LED 4 should be off");
+      Serial.println("inputs low, LED 4 should be on");
       delay(2000);
       resetLEDs();
       digitalWrite(input7, HIGH);
@@ -129,14 +129,13 @@ void TestOutput(int testOutput){
       resetLEDs();
       digitalWrite(input7, HIGH);
       digitalWrite(input8, HIGH);
-      Serial.println("inputs H/H, LED 4 should be on");
+      Serial.println("inputs H/H, LED 4 should be off");
       delay(2000);
       resetLEDs();
       Serial.println("End of output 4 test");
       break;
   }
 }
-
 
 void loop() {
   Serial.println("Cycle Start");

@@ -233,8 +233,8 @@ VCC | 5V | 14 | arduino 5v to IC
 
 [74HC32 Simple Test Code](74HC32/74HC32.ino)
 - Images/Info
-  - [Serial Out]() - screenshot of serial output  
-  - [Image]()
+  - ![Serial Out](74HC32/74HC32_SerialOutput.png "Serial Output")  
+  - ![Image](74HC32/74HC32_Arduino.jpg)
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
@@ -246,6 +246,36 @@ VCC | 5V | 14 | arduino 5v to IC
 ### 74HC126 High Speed CMOS Logic Quad Buffers with 3-State Outputs
 
 ### 74HC132 High Speed CMOS Logic Quad 2-Input Schmitt-Triggered NAND Gates
+
+- Description - The ’HC132 and ’HCT132 each contain four 2-input NAND Schmitt Triggers in one package. This logic device utilizes silicon gate CMOS technology to achieve operating speeds similar to LSTTL gates with the low power consumption of standard CMOS integrated circuits. All devices have the ability to drive 10 LSTTL loads. The HCT logic family is functionally pin compatible with the standard LS logic family.
+- [74HC132 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc132.pdf)
+- 74HC132 Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1A | 2 | 1 | arduino to IC
+input 1B | 3 | 2 | arduino to IC
+output 1 | XX | 3 | to LED 1
+input 2A | 4 | 4 | arduino to IC
+input 2B | 5 | 5 | arduino to IC
+output 2 | XX | 6 | to LED 2
+Gnd | Gnd | 7 | arduino GND to IC
+output 3 | XX  | 8 | to LED 3
+input 3A | 6 | 9 | arduino to IC
+input 3B | 7 | 10 | arduino to IC
+output 4 | XX | 11 | arduino to IC
+input 4A | 8 | 12 | arduino to IC
+input 4B | 9 | 13 | arduino to IC
+VCC | 5V | 14 | arduino 5v to IC
+
+- [74HC132 Simple Test Code]()
+- Images/Info
+  - ![Function Table](74HC132/74HC132_FunctionTable.png)
+  - ![Serial Out](74HC132/74HC132_SerialOutput.png)
+  - ![Arduino Circuit Image](74HC132/74HC132_Arduino.jpg)
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
 
 ### 74HC138 High Speed CMOS Logic 3-to-8 Line Decoder Demultiplexer Inverting and Non-Inverting
 
