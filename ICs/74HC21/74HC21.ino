@@ -27,6 +27,75 @@ void setLEDsOn(){
   digitalWrite(input7, HIGH);
   digitalWrite(input8, HIGH);
 }
+
+void LED1Test(){
+  digitalWrite(input1, HIGH);
+  digitalWrite(input2, HIGH);
+  digitalWrite(input3, HIGH);
+  digitalWrite(input4, HIGH);
+  Serial.println("LED 1 should be on");
+  delay(5000);
+  digitalWrite(input1, LOW);
+  digitalWrite(input2, HIGH);
+  digitalWrite(input3, HIGH);
+  digitalWrite(input4, HIGH);
+  Serial.println("LED 1 should be off");
+  delay(5000);
+  digitalWrite(input1, HIGH);
+  digitalWrite(input2, LOW);
+  digitalWrite(input3, HIGH);
+  digitalWrite(input4, HIGH);
+  Serial.println("LED 1 should be off");
+  delay(5000);
+  digitalWrite(input1, HIGH);
+  digitalWrite(input2, HIGH);
+  digitalWrite(input3, LOW);
+  digitalWrite(input4, HIGH);
+  Serial.println("LED 1 should be off");
+  delay(5000);
+  digitalWrite(input1, HIGH);
+  digitalWrite(input2, HIGH);
+  digitalWrite(input3, HIGH);
+  digitalWrite(input4, LOW);
+  Serial.println("LED 1 should be off");
+  delay(5000);
+  Serial.println("LED 1 Test Complete");
+}
+
+void LED2Test(){
+  digitalWrite(input5, HIGH);
+  digitalWrite(input6, HIGH);
+  digitalWrite(input7, HIGH);
+  digitalWrite(input8, HIGH);
+  Serial.println("LED 2 should be on");
+  delay(5000);
+  digitalWrite(input5, LOW);
+  digitalWrite(input6, HIGH);
+  digitalWrite(input7, HIGH);
+  digitalWrite(input8, HIGH);
+  Serial.println("LED 2 should be off");
+  delay(5000);
+  digitalWrite(input5, HIGH);
+  digitalWrite(input6, LOW);
+  digitalWrite(input7, HIGH);
+  digitalWrite(input8, HIGH);
+  Serial.println("LED 2 should be off");
+  delay(5000);
+  digitalWrite(input5, HIGH);
+  digitalWrite(input6, HIGH);
+  digitalWrite(input7, LOW);
+  digitalWrite(input8, HIGH);
+  Serial.println("LED 2 should be off");
+  delay(5000);
+  digitalWrite(input5, HIGH);
+  digitalWrite(input6, HIGH);
+  digitalWrite(input7, HIGH);
+  digitalWrite(input8, LOW);
+  Serial.println("LED 2 should be off");
+  delay(5000);
+  Serial.println("LED 2 Test Complete");
+}
+
 void setup() {
   // put your setup code here, to run once:
   pinMode(input1, OUTPUT);
@@ -42,9 +111,7 @@ void setup() {
   resetLEDs();
   Serial.println("All LED's should be off");
   delay(5000);
-
 }
-
 
 void loop() {
   Serial.println("Cycle Start");
@@ -57,23 +124,19 @@ void loop() {
   delay(5000);
   resetLEDs();
   delay(2000);
-  digitalWrite(input1, HIGH);
-  digitalWrite(input2, HIGH);
-  digitalWrite(input3, HIGH);
-  digitalWrite(input4, HIGH);
-  Serial.println("LED 1 should be on");
+  LED1Test();
   delay(5000);
   resetLEDs();
   delay(2000);
-  digitalWrite(input5, HIGH);
-  digitalWrite(input6, HIGH);
-  digitalWrite(input7, HIGH);
-  digitalWrite(input8, HIGH);
-  Serial.println("LED 2 should be on");
+  LED2Test();
   delay(5000);
   resetLEDs();
+  Serial.println("All LED's should be off");
   delay(2000);
-  
+  setLEDsOn();
+  Serial.println("All LED's should be off");
+  delay(2000);
+  resetLEDs();
   Serial.println("Cycle Complete");
-  
+  delay(1000);
 }

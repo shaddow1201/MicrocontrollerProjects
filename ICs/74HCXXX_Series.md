@@ -103,7 +103,6 @@ VCC | 5V | 14 | arduino 5v to IC
 - [74HC08 Simple Test Code](74HC08/74HC08.ino)  
 - Images/Info
   - [Serial Out](74HC08/74HC08_SerialOutput.png) - screenshot of serial output  
-  - [Image]()
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
@@ -135,7 +134,7 @@ VCC | 5V | 14 | arduino 5v to IC
 - [74HC10 Simple Test Code](74HC10/74HC10.ino)  
 - Images/Info
   - [Serial Out](74HC10/74HC10_SerialOutput.png) - screenshot of serial output  
-  - [Image]()
+  - [Image](74HC10/74CH10.jpg)
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
@@ -149,7 +148,7 @@ VCC | 5V | 14 | arduino 5v to IC
 
 - Description - These devices contain two independent 4-input AND gates. They perform the Boolean function Y = A • B • C • D or Y = (A\ + B\ + C\ + D\)\ in positive logic.
 - [74HC21 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc21.pdf)
-- 74HC10 Wiring 
+- 74HC21 Wiring
 
 **Type**|**Arduino Pin**|**IC pin**|**Detail**
 -----:|:-----:|:-----:|:-----:
@@ -167,11 +166,12 @@ NC | XX | 11 | No Connection
 input 7 | 8 | 12 | arduino to IC
 input 8 | 9 | 13 | arduino to IC
 VCC | 5V | 14 | arduino 5v to IC
+
 - [74HC21 Simple Test Code](74HC21/74HC21.ino)
 - Images/Info
   - [Logic Function](74HC21/74HC21_FunctionTable.png)
-  - [Serial Out]() - screenshot of serial output  
-  - [Image]()
+  - [Serial Out](74HC21/74HC21_SerialOutput.png) - screenshot of serial output  
+  - [Image](74HC21/74HC21.jpg)
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
@@ -180,8 +180,64 @@ VCC | 5V | 14 | arduino 5v to IC
 
 - Description - The ’HC30 and ’HCT30 each contain an 8-input NAND gate in one package. They provide the system designer with the direct implementation of the positive logic 8-input NAND function. Logic gates utilize silicon gate CMOS technology to achieve operating speeds similar to LSTTL gates with the low power consumption of standard CMOS integrated circuits. All devices have the ability to drive 10 LSTTL loads. The HCT logic family is functionally pin compatible with the standard LS logic family.
 - [74HC30 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc30.pdf)
+- 74HC30 Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input A | 2 | 1 | arduino to IC
+input B | 3 | 2 | arduino to IC
+input C | 4 | 3 | arduino to IC
+input D | 5 | 4 | arduino to IC
+input E | 6 | 5 | arduino to IC
+input F | 7 | 6 | arduino to IC
+Gnd | Gnd | 7 | ardunio GND to IC
+output Y | XX | 8 | to LED 1
+NC | XX | 9 | No Connection
+NC | XX | 10 | No Connection
+input G | 8 | 11 | No Connection
+input H | 9 | 12 | arduino to IC
+NC | XX | 13 | No Connection
+VCC | 5V | 14 | arduino 5v to IC
+
+- [74HC30 Simple Test Code](74HC30/74HC30.ino)
+- Images/Info
+  - [Logic Function](74HC30/74HC30_FunctionTable.png)
+  - [Serial Out](74HC30/74HC30_SerialOutput.png) - screenshot of serial output  
+  - [Image](74HC30/74HC30.jpg)
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
   
 ### 74HC32 Quadruple 2-Input Positive-OR Gates
+
+- Description - The ’HC32 and ’HCT32 contain four 2-input OR gates in one package. Logic gates utilize silicon gate CMOS technology to achieve operating speeds similar to LSTTL gates with the low power consumption of standard CMOS integrated circuits. All devices have the ability to drive 10 LSTTL loads. The HCT logic family is functionally pin compatible with the standard LS logic family.
+- [74HC32 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc32.pdf)
+- 74HC32 Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1A | 2 | 1 | arduino to IC
+input 1B | 3 | 2 | arduino to IC
+output 1 | XX | 3 | to LED 1
+input 2A | 4 | 4 | arduino to IC
+input 2B | 5 | 5 | arduino to IC
+ouput 2 | XX | 6 | to LED 2
+Gnd | Gnd | 7 | arduino GND to IC
+output 3 | XX | 8 | to LED 3
+input 3A | 6 | 9 | arduino to IC
+input 3B | 7 | 10 | arduino to IC
+output 4 | XX | 11 | to LED 4
+input 4A | 8 | 12 | arduino to IC
+input 4B | 9 | 13 | arduino to IC  
+VCC | 5V | 14 | arduino 5v to IC
+
+[74HC32 Simple Test Code](74HC32/74HC32.ino)
+- Images/Info
+  - [Serial Out]() - screenshot of serial output  
+  - [Image]()
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
 
 ### 74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset
 

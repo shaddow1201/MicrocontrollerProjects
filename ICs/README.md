@@ -18,13 +18,13 @@
 I bought an 'assortment' of ICs, and though i'd see if i could put some simple coding together, in an attempt to become 'quickly' familiar with reading tech docs, wiring, testing, and documenting, etc.
 
 ### 74HCXXX Series Links
--[74HC02 High Speed CMOS Logic Quad 2-Input NOR Gates](74HCXXX_Series.md#74HC02-High-Speed-CMOS-Logic-Quad-2-Input-NOR-Gates)  
+-[74HC02 High Speed CMOS Logic Quad 2-Input NOR Gates](74HCXXX_Series.md#74HC02-High-Speed-CMOS-Logic-Quad-2-Input-NOR-Gates) *Complete  
 -[74HC04 High Speed CMOS Logic Hex Inverters](74HCXXX_Series.md#74HC04-High-Speed-CMOS-Logic-Hex-Inverters)  
 -[74HC05 Hex Inverters With Open-Drain Outputs](74HCXXX_Series.md#74HC05-Hex-Inverters-With-Open-Drain-Outputs)  
--[74HC08 High Speed CMOS Logic Quad 2-Input AND Gates](74HCXXX_Series.md#74HC08-High-Speed-CMOS-Logic-Quad-2-Input-AND-Gates)  
--[74HC10 Triple 3-Input Positive-NAND Gates](74HCXXX_Series.md#74HC10-Triple-3-Input-Positive-NAND-Gates)  
+-[74HC08 High Speed CMOS Logic Quad 2-Input AND Gates](74HCXXX_Series.md#74HC08-High-Speed-CMOS-Logic-Quad-2-Input-AND-Gates) *Complete  
+-[74HC10 Triple 3-Input Positive-NAND Gates](74HCXXX_Series.md#74HC10-Triple-3-Input-Positive-NAND-Gates) *Complete  
 -[74HC14 Hex Schmitt-Trigger Inverters](74HCXXX_Series.md#74HC14-Hex-Schmitt-Trigger-Inverters)  
--[74HC21 Dual 4-Input Positive-AND Gates](74HCXXX_Series.md#74HC21-Dual-4-Input-Positive-AND-Gates)  
+-[74HC21 Dual 4-Input Positive-AND Gates](74HCXXX_Series.md#74HC21-Dual-4-Input-Positive-AND-Gates) *Complete  
 -[74HC30 High Speed CMOS Logic 8-Input NAND Gate](74HCXXX_Series.md#74HC30-High-Speed-CMOS-Logic-8-Input-NAND-Gate)  
 -[74HC32 Quadruple 2-Input Positive-OR Gates](74HCXXX_Series.md#74HC32-Quadruple-2-Input-Positive-OR-Gates)  
 -[74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset](74HCXXX_Series.md#74HC74-Dual-D-Type-Positive-Edge-Triggered-Flip-Flops-With-Clear-and-Preset)  
@@ -46,7 +46,7 @@ I bought an 'assortment' of ICs, and though i'd see if i could put some simple c
 -[74HC393 High Speed CMOS Logic Dual 4-Stage Binary Counters](74HCXXX_Series.md#74HC393-High-Speed-CMOS-Logic-Dual-4-Stage-Binary-Counters)  
 -[74HC573 High Speed CMOS Logic Octal Transparent Latches with 3-State Outputs](74HCXXX_Series.md#74HC573-High-Speed-CMOS-Logic-Octal-Transparent-Latches-with-3-State-Outputs)  
 -[74HC574 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs](74HCXXX_Series.md#74HC574-High-Speed-CMOS-Logic-Octal-Positive-Edge-Triggered-D-Type-Flip-Flops-with-3-State-Outputs)  
--[74HC595 8 Bit Shift Register With 3 State Output Registers](74HCXXX_Series.md#74hc595-8-bit-shift-register-with-3-state-output-registers)  
+-[74HC595 8 Bit Shift Register With 3 State Output Registers](74HCXXX_Series.md#74hc595-8-bit-shift-register-with-3-state-output-registers) *Partial
 
 ## Contributing
 
