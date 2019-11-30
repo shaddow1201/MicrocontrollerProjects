@@ -28,10 +28,10 @@ VCC | 5V | 14
 
 - [74HC00 Simple Test Code](74HC00/74HC00.ino)  
 - Images/Info
-  - [Switch](74HC00/74HC00_switchBased.jpg) - using a 8 pin switch  
-  - [Arduino](74HC00/74HC00_Arduino.jpg) - using 8 pins on an arduino
-  - [Serial Out](74HC00/74HC00_SerialOutput.png) - screenshot of serial output
-- Materials 
+  - ![Switch](74HC00/74HC00_switchBased.jpg "Switch Based") - using a 8 pin switch  
+  - ![Arduino](74HC00/74HC00_Arduino.jpg "Arduino Based") - using 8 pins on an arduino
+  - ![Serial Out](74HC00/74HC00_SerialOutput.png) - screenshot of serial output
+- Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes - tested first with 8 pin switch, and then tested it with the arduino.
   
@@ -61,8 +61,8 @@ VCC | 5V | 14 | arduino 5v to IC
 - [74HC02 Simple Test Code]()  
 - Images/Info
   - [Arduino](74HC02/74HC02.ino) - using 8 pins on an arduino
-  - [Serial Out](74HC02/74HC02_SerialOutput.png) - screenshot of serial output  
-  - [Image](74HC02/74HC02.jpg)
+  - ![Serial Out](74HC02/74HC02_SerialOutput.png "Serial Out") - screenshot of serial output  
+  - ![Image]( "Arduino controlled")
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
@@ -91,7 +91,7 @@ output 1 | XX | 3 | to LED 1
 input 3 | 4 | 4 | arduino to IC
 input 4 | 5 | 5 | arduino to IC
 output 2 | XX | 6 | to LED 2
-Gnd | Gnd | 7 | ardunio GND to IC 
+Gnd | Gnd | 7 | ardunio GND to IC
 output 3 | XX | 8 | to LED 3
 input 5 | 6 | 9 | arduino to IC
 input 6 | 7 | 10 | arduino to IC
@@ -102,7 +102,7 @@ VCC | 5V | 14 | arduino 5v to IC
 
 - [74HC08 Simple Test Code](74HC08/74HC08.ino)  
 - Images/Info
-  - [Serial Out](74HC08/74HC08_SerialOutput.png) - screenshot of serial output  
+  - ![Serial Out](74HC08/74HC08_SerialOutput.png "Serial Out") - screenshot of serial output  
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
@@ -133,8 +133,8 @@ VCC | 5V | 14 | arduino 5v to IC
 
 - [74HC10 Simple Test Code](74HC10/74HC10.ino)  
 - Images/Info
-  - [Serial Out](74HC10/74HC10_SerialOutput.png) - screenshot of serial output  
-  - [Image](74HC10/74CH10.jpg)
+  - ![Serial Out](74HC10/74HC10_SerialOutput.png "Serial Out") - screenshot of serial output  
+  - ![Image](74HC10/74CH10.jpg "Arduino Circuit Image")
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
@@ -169,9 +169,9 @@ VCC | 5V | 14 | arduino 5v to IC
 
 - [74HC21 Simple Test Code](74HC21/74HC21.ino)
 - Images/Info
-  - [Logic Function](74HC21/74HC21_FunctionTable.png)
-  - [Serial Out](74HC21/74HC21_SerialOutput.png) - screenshot of serial output  
-  - [Image](74HC21/74HC21.jpg)
+  - ![Logic Function](74HC21/74HC21_FunctionTable.png "Logic Function")
+  - ![Serial Out](74HC21/74HC21_SerialOutput.png "Serial Out") - screenshot of serial output  
+  - ![Arduino Circuit](74HC21/74HC21.jpg "Arduino Circuit Image")
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
@@ -201,9 +201,9 @@ VCC | 5V | 14 | arduino 5v to IC
 
 - [74HC30 Simple Test Code](74HC30/74HC30.ino)
 - Images/Info
-  - [Logic Function](74HC30/74HC30_FunctionTable.png)
-  - [Serial Out](74HC30/74HC30_SerialOutput.png) - screenshot of serial output  
-  - [Image](74HC30/74HC30.jpg)
+  - ![Logic Function](74HC30/74HC30_FunctionTable.png "Logic Function")
+  - ![Serial Out](74HC30/74HC30_SerialOutput.png "Serial Out") - screenshot of serial output  
+  - ![Arduino Circuit Image](74HC30/74HC30.jpg "Arduino Circuit Image")
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
