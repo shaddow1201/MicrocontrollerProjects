@@ -268,7 +268,7 @@ input 4A | 8 | 12 | arduino to IC
 input 4B | 9 | 13 | arduino to IC
 VCC | 5V | 14 | arduino 5v to IC
 
-- [74HC132 Simple Test Code]()
+- [74HC132 Simple Test Code](74HC132/74HC132.ino)
 - Images/Info
   - ![Function Table](74HC132/74HC132_FunctionTable.png)
   - ![Serial Out](74HC132/74HC132_SerialOutput.png)
@@ -278,6 +278,39 @@ VCC | 5V | 14 | arduino 5v to IC
 - Notes
 
 ### 74HC138 High Speed CMOS Logic 3-to-8 Line Decoder Demultiplexer Inverting and Non-Inverting
+
+- Description - The ’HC138, ’HC238, ’HCT138, and ’HCT238 are high-speed silicon-gate CMOS decoders well suited to memory address decoding or data-routing applications. Both circuits feature low power consumption usually associated with CMOS circuitry, yet have speeds comparable to low-power Schottky TTL logic. Both circuits have three binary select inputs (A0, A1, and A2). If the device is enabled, these inputs determine which one of the eight normally high outputs of the HC/HCT138 series go low or which of the normally low outputs of the HC/HCT238 series go high. Two active low and one active high enables (E1, E2, and E3) are provided to ease the cascading of decoders. The decoder’s eight outputs can drive ten low-power Schottky TTL equivalent loads.
+- [74HC138 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc138.pdf)
+- 74HC138 Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input A0 | 2 | 1 | arduino to IC
+input A1 | 3 | 2 | arduino to IC
+input A2 | 4 | 3 | arduino to IC
+enable E1 | XX | 4 | tie to GND
+enable E2 | XX | 5 | tie to GND
+enable E3 | XX | 6 | tie to 5V
+output Y7 | XX | 7 | to LED 8
+Gnd | Gnd | 8 | arduino GND to IC
+output Y6 | XX | 9 |  to LED 7
+output Y5 | XX | 10 | to LED 6
+output Y4 | XX | 11 | to LED 5
+output Y3 | XX | 12 | to LED 4
+output Y2 | XX | 13 | to LED 3
+output Y1 | XX | 14 | to LED 2
+output Y0 | XX | 15 | to LED 1
+VCC | 5V | 16 | arduino 5v to IC
+
+- [74HC138 Simple Test Code](74HC138/74HC138.ino)
+- Images/Info
+  - ![Function Table](74HC138/74HC138_TruthTable.png "Function Tables")
+  - [Serial Out]()
+  - [Arduino Circuit Image]()
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
+  1. Red box is inputs, generating the rest of the black box.
 
 ### 74HC139 High Speed CMOS Logic Dual 2-to-4 Line Decoders/Demultiplexers
 
