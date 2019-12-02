@@ -26,7 +26,7 @@
 
 ## Integrated Circuits
 - [ICs README.md](ICs/README.md)  
-- [74HCXXX Series](ICs/74HCXXX_Series.md) 
+- [ICs/74HCXXX Series](ICs/74HCXXX_Series.md) 
 
 ## Contributing
 
