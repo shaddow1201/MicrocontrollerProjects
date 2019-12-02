@@ -285,9 +285,9 @@ VCC | 5V | 14 | arduino 5v to IC
 
 **Type**|**Arduino Pin**|**IC pin**|**Detail**
 -----:|:-----:|:-----:|:-----:
-input A0 | 2 | 1 | arduino to IC
-input A1 | 3 | 2 | arduino to IC
-input A2 | 4 | 3 | arduino to IC
+input A0 | 2 | 1 | arduino to IC + 18k resistor from VCC to IC
+input A1 | 3 | 2 | arduino to IC + 18k resistor from VCC to IC
+input A2 | 4 | 3 | arduino to IC + 18k resistor from VCC to IC
 enable E1 | XX | 4 | tie to GND
 enable E2 | XX | 5 | tie to GND
 enable E3 | XX | 6 | tie to 5V
