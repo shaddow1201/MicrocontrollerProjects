@@ -1,7 +1,19 @@
-# Integrated Circuits (IC's)
-  This will serve as documentation and, a quick lookup for myself of IC's that i've investigated.  Adding other series as I investigate new circuits.
+# 74HCXXX Series IC's
+  This will serve as documentation and, a quick lookup for myself of 74HCXXX Serices IC's that i've investigated.
 
-## 74HCXXX Series
+## Details
+I will be following a similar layout as others
+
+- Description
+- Data Sheet Link
+- Wiring Table
+- Simple Arduino Test Code
+- Details
+  - image of circuit
+  - image of Serial Out
+  - other images
+- Materials
+- Notes
 
 ### 74HC00 High Speed CMOS Logic Quad 2-Input NAND Gates
 
