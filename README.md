@@ -25,8 +25,8 @@
 - ESP32
 
 ## Integrated Circuits
-
-- [74HCXXX Series](ICs/74HCXXX_Series.md)
+- [ICs README.md](ICs/README.md)  
+- [ICs/74HCXXX Series](ICs/74HCXXX_Series.md) 
 
 ## Contributing
 

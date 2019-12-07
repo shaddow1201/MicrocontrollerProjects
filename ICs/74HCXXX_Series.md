@@ -1,7 +1,19 @@
-# Integrated Circuits (IC's)
-  This will serve as documentation and, a quick lookup for myself of IC's that i've investigated.  Adding other series as I investigate new circuits.
+# 74HCXXX Series IC's
+  This will serve as documentation and, a quick lookup for myself of 74HCXXX Serices IC's that i've investigated.
 
-## 74HCXXX Series
+## Details
+I will be following a similar layout as others
+
+- Description
+- Data Sheet Link
+- Wiring Table
+- Simple Arduino Test Code
+- Details
+  - image of circuit
+  - image of Serial Out
+  - other images
+- Materials
+- Notes
 
 ### 74HC00 High Speed CMOS Logic Quad 2-Input NAND Gates
 
@@ -285,9 +297,9 @@ VCC | 5V | 14 | arduino 5v to IC
 
 **Type**|**Arduino Pin**|**IC pin**|**Detail**
 -----:|:-----:|:-----:|:-----:
-input A0 | 2 | 1 | arduino to IC
-input A1 | 3 | 2 | arduino to IC
-input A2 | 4 | 3 | arduino to IC
+input A0 | 2 | 1 | arduino to IC + 18k resistor from VCC to IC
+input A1 | 3 | 2 | arduino to IC + 18k resistor from VCC to IC
+input A2 | 4 | 3 | arduino to IC + 18k resistor from VCC to IC
 enable E1 | XX | 4 | tie to GND
 enable E2 | XX | 5 | tie to GND
 enable E3 | XX | 6 | tie to 5V
