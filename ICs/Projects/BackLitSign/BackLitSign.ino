@@ -18,7 +18,6 @@ void setup()
 
 void loop(){
   if (digitalRead(TOUCH_SW_PIN)){
-    delay(200); 
     if (state == HIGH){
       state = LOW;
     } else {
@@ -27,4 +26,5 @@ void loop(){
     digitalWrite(RELAY_PIN_A, state);
     digitalWrite(RELAY_PIN_B, state);
   }
+  delay(200);
 }

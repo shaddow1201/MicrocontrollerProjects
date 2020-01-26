@@ -19,8 +19,8 @@ I bought an 'assortment' of ICs, and though i'd see if i could find out what the
 
 ### 74HCXXX Series Links
 -[74HC02 High Speed CMOS Logic Quad 2-Input NOR Gates](74HCXXX_Series.md#74HC02-High-Speed-CMOS-Logic-Quad-2-Input-NOR-Gates) *Complete  
--[74HC04 High Speed CMOS Logic Hex Inverters](74HCXXX_Series.md#74HC04-High-Speed-CMOS-Logic-Hex-Inverters)  
--[74HC05 Hex Inverters With Open-Drain Outputs](74HCXXX_Series.md#74HC05-Hex-Inverters-With-Open-Drain-Outputs)  
+-[74HC04 High Speed CMOS Logic Hex Inverters](74HCXXX_Series.md#74HC04-High-Speed-CMOS-Logic-Hex-Inverters) *Complete  
+-[74HC05 Hex Inverters With Open-Drain Outputs](74HCXXX_Series.md#74HC05-Hex-Inverters-With-Open-Drain-Outputs) *Complete  
 -[74HC08 High Speed CMOS Logic Quad 2-Input AND Gates](74HCXXX_Series.md#74HC08-High-Speed-CMOS-Logic-Quad-2-Input-AND-Gates) *Complete  
 -[74HC10 Triple 3-Input Positive-NAND Gates](74HCXXX_Series.md#74HC10-Triple-3-Input-Positive-NAND-Gates) *Complete  
 -[74HC14 Hex Schmitt-Trigger Inverters](74HCXXX_Series.md#74HC14-Hex-Schmitt-Trigger-Inverters)  

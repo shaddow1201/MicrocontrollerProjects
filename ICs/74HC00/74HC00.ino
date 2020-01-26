@@ -7,7 +7,7 @@
 #define input7 8
 #define input8 9
 
-
+int delaySec = 100;
 void setup() {
   // put your setup code here, to run once:
   pinMode(input1, OUTPUT);
@@ -38,51 +38,51 @@ void resetLEDs(){
 void loop() {
   resetLEDs();
   Serial.println("All LED's should be off");
-  delay(5000);
+  delay(delaySec);
   digitalWrite(input1, LOW);
   digitalWrite(input2, HIGH);
   Serial.println("LED 1 should be on single low input");
-  delay(5000);
+  delay(delaySec);
   resetLEDs();
   delay(1000);
   digitalWrite(input1, LOW);
   digitalWrite(input2, LOW);
   Serial.println("LED 1 should be on, dual low input");
-  delay(5000);
+  delay(delaySec);
   resetLEDs();
   delay(1000);
   digitalWrite(input3, LOW);
   digitalWrite(input4, HIGH);
   Serial.println("LED 2 should be on single low input");
-  delay(5000);
+  delay(delaySec);
   resetLEDs();
   delay(1000);
   digitalWrite(input3, LOW);
   digitalWrite(input4, LOW);
   Serial.println("LED 2 should be on, dual low input");
-  delay(5000);
+  delay(delaySec);
   resetLEDs();
   delay(1000);
   digitalWrite(input5, LOW);
   digitalWrite(input6, HIGH);
   Serial.println("LED 3 should be on single low input");
-  delay(5000);
+  delay(delaySec);
   resetLEDs();
   delay(1000);
   digitalWrite(input5, LOW);
   digitalWrite(input6, LOW);
   Serial.println("LED 3 should be on, dual low input");
-  delay(5000);
+  delay(delaySec);
   resetLEDs();
   delay(1000);
   digitalWrite(input7, LOW);
   digitalWrite(input8, HIGH);
   Serial.println("LED 4 should be on single low input");
-  delay(5000);
+  delay(delaySec);
   resetLEDs();
   delay(1000);
   digitalWrite(input7, LOW);
   digitalWrite(input8, LOW);
   Serial.println("LED 4 should be on, dual low input");
-  delay(5000);
+  delay(delaySec);
 }
