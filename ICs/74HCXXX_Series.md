@@ -1,19 +1,7 @@
-# 74HCXXX Series IC's
-  This will serve as documentation and, a quick lookup for myself of 74HCXXX Serices IC's that i've investigated.
+# Integrated Circuits (IC's)
+  This will serve as documentation and, a quick lookup for myself of IC's that i've investigated.  Adding other series as I investigate new circuits.
 
-## Details
-I will be following a similar layout as others
-
-- Description
-- Data Sheet Link
-- Wiring Table
-- Simple Arduino Test Code
-- Details
-  - image of circuit
-  - image of Serial Out
-  - other images
-- Materials
-- Notes
+## 74HCXXX Series
 
 ### 74HC00 High Speed CMOS Logic Quad 2-Input NAND Gates
 
@@ -45,7 +33,7 @@ VCC | 5V | 14
   - ![Serial Out](74HC00/74HC00_SerialOutput.png) - screenshot of serial output
 - Materials
   - Arduino, LEDs (red), resistors (220)
-- Notes - tested first with 8 pin switch, and then tested it with the arduino.
+- Notes - tested first with 8 pin switch, and then tested it with the arduino.  resistors go from LED to ground.
   
 ### 74HC02 High Speed CMOS Logic Quad 2-Input NOR Gates
 
@@ -77,17 +65,72 @@ VCC | 5V | 14 | arduino 5v to IC
   - ![Image]( "Arduino controlled")
 - Materials
   - Arduino, LEDs (red), resistors (220)
-- Notes
+- Notes - resistors go from LED to ground
 
 ### 74HC04 High Speed CMOS Logic Hex Inverters
 
 - Description - The SNx4HC04 devices contain six independent inverters. They perform the Boolean function Y = A in positive logic.
 - [74HC04 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc04.pdf)
+- 74HC04 Wiring  
   
-### 74HC05 Hex Inverters With Open-Drain Outputs
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1 | 2 | 1 | arduino to IC
+output 1 | XX | 2 | to LED 1
+input 2 | 3 | 3 | arduino to IC
+output 2 | XX | 4 | to LED 2
+input 3 | 4 | 5 | arduino to IC
+output 3 | XX | 6 | to LED 3
+Gnd | Gnd | 7 | ardunio GND to IC 
+output 4 | XX | 8 | to LED 4
+input 4 | 5 | 9 | arduino to IC
+output 5 | XX | 10 | to LED 5 
+input 5 | 6 | 11 | arduino to IC
+output 6  | XX | 12 | to LED 6
+input 6 | 7 | 13 | arduino to IC
+VCC | 5V | 14 | arduino 5v to IC
+
+- [74HC04 Simple Test Code](74HC04/74HC04.ino)  
+- Images/Info
+  - ![Serial Out](74HC04/74HC04_SerialOutput.png "Serial Out") 
+  screenshot of serial output  
+  
+  - ![Image](74HC04/../74HC00/74HC00_Arduino.jpg "Arduino Controlled")
+  
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes - resistors go from LED to ground
+
+### 74HC05 Hex Inverters With Open-Drain Outputs  
 
 - Description - The SNx4HC05 devices contain six independent inverters. They perform the Boolean function Y = A in positive logic. The open-drain outputs require pullup resistors to perform correctly. They may be connected to other open-drain outputs to implement active-low wired-OR or active-high wired-AND functions.
 - [74HC05 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc05.pdf)
+- 74HC05 Wiring  
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1 | 2 | 1 | arduino to IC
+output 1 | XX | 2 | to LED 1
+input 2 | 3 | 3 | arduino to IC
+output 2 | XX | 4 | to LED 2
+input 3 | 4 | 5 | arduino to IC
+output 3 | XX | 6 | to LED 3
+Gnd | Gnd | 7 | ardunio GND to IC  
+output 4 | XX | 8 | to LED 4
+input 4 | 5 | 9 | arduino to IC
+output 5 | XX | 10 | to LED 5 
+input 5 | 6 | 11 | arduino to IC
+output 6  | XX | 12 | to LED 6
+input 6 | 7 | 13 | arduino to IC
+VCC | 5V | 14 | arduino 5v to IC
+
+- [74HC05 Simple Test Code](74HC05/74HC05.ino)  
+- Images/Info
+  - ![Serial Out](74HC05/74HC05_SerialOutput.png "Serial Out") - screenshot of serial output  
+  - ![Image](74HC05/74HC05_Arduino.jpg)
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes - resistors go from VCC to IC output pins.
 
 ### 74HC08 High Speed CMOS Logic Quad 2-Input AND Gates
 
@@ -115,6 +158,7 @@ VCC | 5V | 14 | arduino 5v to IC
 - [74HC08 Simple Test Code](74HC08/74HC08.ino)  
 - Images/Info
   - ![Serial Out](74HC08/74HC08_SerialOutput.png "Serial Out") - screenshot of serial output  
+  - ![Image](74HC08/74HC08_Arduino.jpg "Arduino Circuit Image")
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
@@ -155,6 +199,34 @@ VCC | 5V | 14 | arduino 5v to IC
 
 - Description - The SNx4HC14 are Schmitt-trigger devices that contain six independent inverters. They perform the Boolean function Y = A in positive logic.
 - [74HC14 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc14.pdf)
+- 74HC14 Wiring  
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1 | 2 | 1 | arduino to IC
+output 1 | XX | 2 | to LED 1
+input 2 | 3 | 3 | arduino to IC
+output 2 | XX | 4 | to LED 2
+input 3 | 4 | 5 | arduino to IC
+output 3 | XX | 6 | to LED 3
+Gnd | Gnd | 7 | ardunio GND to IC 
+output 4 | XX | 8 | to LED 4
+input 4 | 5 | 9 | arduino to IC
+output 5 | XX | 10 | to LED 5 
+input 5 | 6 | 11 | arduino to IC
+output 6  | XX | 12 | to LED 6
+input 6 | 7 | 13 | arduino to IC
+VCC | 5V | 14 | arduino 5v to IC
+
+- [74HC14 Simple Test Code](74HC14/74HC14.ino)  
+- Images/Info
+  - ![Serial Out](74HC14/74HC14_SerialOutput.png "Serial Out")  
+  screenshot of serial output  
+  - ![Image](74HC14/74HC14_Arduino.jpg "Arduino Controlled")
+  screenshot of Arduino Circuit
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes - resistors go from LED to ground
 
 ### 74HC21 Dual 4-Input Positive-AND Gates
 
@@ -252,6 +324,48 @@ VCC | 5V | 14 | arduino 5v to IC
 - Notes
 
 ### 74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset
+- Description - The ’HC74 and ’HCT74 utilize silicon gate CMOS technology
+to achieve operating speeds equivalent to LSTTL parts.
+They exhibit the low power consumption of standard CMOS
+integrated circuits, together with the ability to drive 10 LSTTL
+loads.  
+This flip-flop has independent DATA, SET, RESET and
+CLOCK inputs and Q and Q! outputs. The logic level present
+at the data input is transferred to the output during the
+positive-going transition of the clock pulse. SET and RESET
+are independent of the clock and are accomplished by a low
+level at the appropriate input.  
+The HCT logic family is functionally as well as pin compatible
+with the standard LS logic family.  
+
+- [74HC74 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc74.pdf)
+- 74HC74 Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1A | 2 | 1 | arduino to IC
+input 1B | 3 | 2 | arduino to IC
+output 1 | XX | 3 | to LED 1
+input 2A | 4 | 4 | arduino to IC
+input 2B | 5 | 5 | arduino to IC
+ouput 2 | XX | 6 | to LED 2
+Gnd | Gnd | 7 | arduino GND to IC
+output 3 | XX | 8 | to LED 3
+input 3A | 6 | 9 | arduino to IC
+input 3B | 7 | 10 | arduino to IC
+output 4 | XX | 11 | to LED 4
+input 4A | 8 | 12 | arduino to IC
+input 4B | 9 | 13 | arduino to IC  
+VCC | 5V | 14 | arduino 5v to IC
+
+[74HC74 Simple Test Code]()
+- Images/Info
+  - ![Serial Out]( "Serial Output")  
+  - ![Image]()
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
+
 
 ### 74HC125 High Speed CMOS Logic Quad Buffers with 3-State Outputs
 
@@ -297,9 +411,9 @@ VCC | 5V | 14 | arduino 5v to IC
 
 **Type**|**Arduino Pin**|**IC pin**|**Detail**
 -----:|:-----:|:-----:|:-----:
-input A0 | 2 | 1 | arduino to IC + 18k resistor from VCC to IC
-input A1 | 3 | 2 | arduino to IC + 18k resistor from VCC to IC
-input A2 | 4 | 3 | arduino to IC + 18k resistor from VCC to IC
+input A0 | 2 | 1 | arduino to IC
+input A1 | 3 | 2 | arduino to IC
+input A2 | 4 | 3 | arduino to IC
 enable E1 | XX | 4 | tie to GND
 enable E2 | XX | 5 | tie to GND
 enable E3 | XX | 6 | tie to 5V
@@ -323,6 +437,7 @@ VCC | 5V | 16 | arduino 5v to IC
   - Arduino, LEDs (red), resistors (220)
 - Notes
   1. Red box is inputs, generating the rest of the black box.
+  2. E3 is tied to 5v, E2 and E1 are tied to ground.
 
 ### 74HC139 High Speed CMOS Logic Dual 2-to-4 Line Decoders/Demultiplexers
 
