@@ -412,7 +412,7 @@ VCC | 5V | 14 | arduino 5v to IC
 - Images/Info
   - ![Function Table](74HC126/FunctionTable.png "Function Table")
   - ![Serial Out](74HC126/74HC126_SerialOutput.png "Serial Output")  
-  - ![Image](74HC126/74HC126_Arduino.jpg)
+  - ![Image](74HC126/74HC126_ArduinoCircuit.jpg)
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes

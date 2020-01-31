@@ -28,8 +28,8 @@ I bought an 'assortment' of ICs, and thought i'd see if i could find out what th
 -[74HC30 High Speed CMOS Logic 8-Input NAND Gate](74HCXXX_Series.md#74HC30-High-Speed-CMOS-Logic-8-Input-NAND-Gate) *Complete  
 -[74HC32 Quadruple 2-Input Positive-OR Gates](74HCXXX_Series.md#74HC32-Quadruple-2-Input-Positive-OR-Gates) *Complete  
 -[74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset](74HCXXX_Series.md#74HC74-Dual-D-Type-Positive-Edge-Triggered-Flip-Flops-With-Clear-and-Preset) *Complete  
--[74HC125 High Speed CMOS Logic Quad Buffers with 3-State Outputs](74HCXXX_Series.md#74HC125-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs)  
--[74HC126 High Speed CMOS Logic Quad Buffers with 3-State Outputs](74HCXXX_Series.md#74HC126-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs)  
+-[74HC125 High Speed CMOS Logic Quad Buffers with 3-State Outputs](74HCXXX_Series.md#74HC125-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs) *Complete  
+-[74HC126 High Speed CMOS Logic Quad Buffers with 3-State Outputs](74HCXXX_Series.md#74HC126-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs) *Complete  
 -[74HC132 High Speed CMOS Logic Quad 2-Input Schmitt-Triggered NAND Gates](74HCXXX_Series.md#74hc132-high-speed-cmos-logic-quad-2-input-schmitt-triggered-nand-gates) * Complete  
 -[74HC138 High Speed CMOS Logic 3-to-8 Line Decoder Demultiplexer Inverting/Non-Inverting](74HCXXX_Series.md#74hc138-high-speed-cmos-logic-3-to-8-line-decoder-demultiplexer-inverting-non-inverting)  
 -[74HC139 High Speed CMOS Logic Dual 2-to-4 Line Decoders/Demultiplexers](74HCXXX_Series.md#74HC139-High-Speed-CMOS-Logic-Dual-2-to-4-Line-Decoders/Demultiplexers)  
