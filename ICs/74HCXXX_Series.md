@@ -386,9 +386,9 @@ VCC | 5V | 14 | arduino 5v to IC
 - Notes
   
 ### 74HC126 High Speed CMOS Logic Quad Buffers with 3-State Outputs
-- Description -   
+- Description - The ’HC126 and ’HCT126 contain four independent threestate buffers, each having its own output enable input, which when “low” puts the output in the high-impedance state.  
 
-- [74HC74 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc126.pdf)
+- [74HC126 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc126.pdf)
 - 74HC126 Wiring
 
 **Type**|**Arduino Pin**|**IC pin**|**Detail**
@@ -410,6 +410,7 @@ VCC | 5V | 14 | arduino 5v to IC
 
 [74HC126 Simple Test Code](74HC126/74HC126.ino)
 - Images/Info
+  - ![Function Table](74HC126/FunctionTable.png "Function Table")
   - ![Serial Out](74HC126/74HC126_SerialOutput.png "Serial Output")  
   - ![Image](74HC126/74HC126_Arduino.jpg)
 - Materials
