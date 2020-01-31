@@ -324,19 +324,7 @@ VCC | 5V | 14 | arduino 5v to IC
 - Notes
 
 ### 74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset
-- Description - The ’HC74 and ’HCT74 utilize silicon gate CMOS technology
-to achieve operating speeds equivalent to LSTTL parts.
-They exhibit the low power consumption of standard CMOS
-integrated circuits, together with the ability to drive 10 LSTTL
-loads.  
-This flip-flop has independent DATA, SET, RESET and
-CLOCK inputs and Q and Q! outputs. The logic level present
-at the data input is transferred to the output during the
-positive-going transition of the clock pulse. SET and RESET
-are independent of the clock and are accomplished by a low
-level at the appropriate input.  
-The HCT logic family is functionally as well as pin compatible
-with the standard LS logic family.  
+- Description - The ’HC74 and ’HCT74 utilize silicon gate CMOS technology to achieve operating speeds equivalent to LSTTL parts. They exhibit the low power consumption of standard CMOS integrated circuits, together with the ability to drive 10 LSTTL loads.  This flip-flop has independent DATA, SET, RESET and CLOCK inputs and Q and Q! outputs. The logic level present at the data input is transferred to the output during the positive-going transition of the clock pulse. SET and RESET are independent of the clock and are accomplished by a low level at the appropriate input.  The HCT logic family is functionally as well as pin compatible with the standard LS logic family.  
 
 - [74HC74 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc74.pdf)
 - 74HC74 Wiring
@@ -358,19 +346,76 @@ input 4A | 8 | 12 | arduino to IC
 input 4B | 9 | 13 | arduino to IC  
 VCC | 5V | 14 | arduino 5v to IC
 
-[74HC74 Simple Test Code]()
+[74HC74 Simple Test Code](74HC74/74HC74.ino)
 - Images/Info
-  - ![Serial Out]( "Serial Output")  
-  - ![Image]()
+  - ![Serial Out](74HC74/74HC74_SerialOutput.png "Serial Output")  
+  - ![Image](74HC74/74HC74_ArduinoCircuit.jpg)
 - Materials
   - Arduino, LEDs (red), resistors (220)
 - Notes
 
-
 ### 74HC125 High Speed CMOS Logic Quad Buffers with 3-State Outputs
+- Description - The ’HC125 and ’HCT125 contain 4 independent three-state buffers, each having its own output enable input, which when “HIGH” puts the output in the high impedance state.  
+  
+- [74HC125 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc125.pdf)
+- 74HC125 Wiring
 
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input !OE1 | 2 | 1 | arduino to IC
+input A | 3 | 2 | arduino to IC
+output 1 | XX | 3 | to LED 1
+input !OE2 | 4 | 4 | arduino to IC
+input 2B | 5 | 5 | arduino to IC
+ouput 2 | XX | 6 | to LED 2
+Gnd | Gnd | 7 | arduino GND to IC
+output 3 | XX | 8 | to LED 3
+input 3A | 6 | 9 | arduino to IC
+input !OE3 | 7 | 10 | arduino to IC
+output 4 | XX | 11 | to LED 4
+input 4A | 8 | 12 | arduino to IC
+input !OE4 | 9 | 13 | arduino to IC  
+VCC | 5V | 14 | arduino 5v to IC
+
+[74HC125 Simple Test Code](74HC125/74HC125.ino)
+- Images/Info
+  - ![Serial Out](74HC125/74HC125_SerialOutput.png "Serial Output")  
+  - ![Image](74HC125/74HC125_ArduinoCircuit.jpg)
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
+  
 ### 74HC126 High Speed CMOS Logic Quad Buffers with 3-State Outputs
+- Description -   
 
+- [74HC74 Data Sheet](http://www.ti.com/lit/ds/symlink/cd74hc126.pdf)
+- 74HC126 Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+input 1A | 2 | 1 | arduino to IC
+input 1B | 3 | 2 | arduino to IC
+output 1 | XX | 3 | to LED 1
+input 2A | 4 | 4 | arduino to IC
+input 2B | 5 | 5 | arduino to IC
+ouput 2 | XX | 6 | to LED 2
+Gnd | Gnd | 7 | arduino GND to IC
+output 3 | XX | 8 | to LED 3
+input 3A | 6 | 9 | arduino to IC
+input 3B | 7 | 10 | arduino to IC
+output 4 | XX | 11 | to LED 4
+input 4A | 8 | 12 | arduino to IC
+input 4B | 9 | 13 | arduino to IC  
+VCC | 5V | 14 | arduino 5v to IC
+
+[74HC126 Simple Test Code](74HC126/74HC126.ino)
+- Images/Info
+  - ![Serial Out](74HC126/74HC126_SerialOutput.png "Serial Output")  
+  - ![Image](74HC126/74HC126_Arduino.jpg)
+- Materials
+  - Arduino, LEDs (red), resistors (220)
+- Notes
+  
 ### 74HC132 High Speed CMOS Logic Quad 2-Input Schmitt-Triggered NAND Gates
 
 - Description - The ’HC132 and ’HCT132 each contain four 2-input NAND Schmitt Triggers in one package. This logic device utilizes silicon gate CMOS technology to achieve operating speeds similar to LSTTL gates with the low power consumption of standard CMOS integrated circuits. All devices have the ability to drive 10 LSTTL loads. The HCT logic family is functionally pin compatible with the standard LS logic family.

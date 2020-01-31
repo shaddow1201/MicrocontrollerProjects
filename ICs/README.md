@@ -15,7 +15,7 @@
 
 ## [74HCXX Series](74HCXXX_Series.md)
 
-I bought an 'assortment' of ICs, and though i'd see if i could find out what they did, their tech details, put some simple coding together, and a few other things, in an attempt to become 'quickly' familiar with reading tech docs, wiring, testing, and documenting, etc.
+I bought an 'assortment' of ICs, and thought i'd see if i could find out what they did, their tech details, put some simple coding together, and a few other things, in an attempt to become 'quickly' familiar with reading tech docs, wiring, testing, and documenting, etc.  I will eventually go further and test their described characteristics with the help of an osilloscope.
 
 ### 74HCXXX Series Links
 -[74HC02 High Speed CMOS Logic Quad 2-Input NOR Gates](74HCXXX_Series.md#74HC02-High-Speed-CMOS-Logic-Quad-2-Input-NOR-Gates) *Complete  
@@ -23,11 +23,11 @@ I bought an 'assortment' of ICs, and though i'd see if i could find out what the
 -[74HC05 Hex Inverters With Open-Drain Outputs](74HCXXX_Series.md#74HC05-Hex-Inverters-With-Open-Drain-Outputs) *Complete  
 -[74HC08 High Speed CMOS Logic Quad 2-Input AND Gates](74HCXXX_Series.md#74HC08-High-Speed-CMOS-Logic-Quad-2-Input-AND-Gates) *Complete  
 -[74HC10 Triple 3-Input Positive-NAND Gates](74HCXXX_Series.md#74HC10-Triple-3-Input-Positive-NAND-Gates) *Complete  
--[74HC14 Hex Schmitt-Trigger Inverters](74HCXXX_Series.md#74HC14-Hex-Schmitt-Trigger-Inverters)  
+-[74HC14 Hex Schmitt-Trigger Inverters](74HCXXX_Series.md#74HC14-Hex-Schmitt-Trigger-Inverters) *Complete  
 -[74HC21 Dual 4-Input Positive-AND Gates](74HCXXX_Series.md#74HC21-Dual-4-Input-Positive-AND-Gates) *Complete  
--[74HC30 High Speed CMOS Logic 8-Input NAND Gate](74HCXXX_Series.md#74HC30-High-Speed-CMOS-Logic-8-Input-NAND-Gate) * Complete  
--[74HC32 Quadruple 2-Input Positive-OR Gates](74HCXXX_Series.md#74HC32-Quadruple-2-Input-Positive-OR-Gates) * Complete  
--[74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset](74HCXXX_Series.md#74HC74-Dual-D-Type-Positive-Edge-Triggered-Flip-Flops-With-Clear-and-Preset)  
+-[74HC30 High Speed CMOS Logic 8-Input NAND Gate](74HCXXX_Series.md#74HC30-High-Speed-CMOS-Logic-8-Input-NAND-Gate) *Complete  
+-[74HC32 Quadruple 2-Input Positive-OR Gates](74HCXXX_Series.md#74HC32-Quadruple-2-Input-Positive-OR-Gates) *Complete  
+-[74HC74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear and Preset](74HCXXX_Series.md#74HC74-Dual-D-Type-Positive-Edge-Triggered-Flip-Flops-With-Clear-and-Preset) *Complete  
 -[74HC125 High Speed CMOS Logic Quad Buffers with 3-State Outputs](74HCXXX_Series.md#74HC125-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs)  
 -[74HC126 High Speed CMOS Logic Quad Buffers with 3-State Outputs](74HCXXX_Series.md#74HC126-High-Speed-CMOS-Logic-Quad-Buffers-with-3-State-Outputs)  
 -[74HC132 High Speed CMOS Logic Quad 2-Input Schmitt-Triggered NAND Gates](74HCXXX_Series.md#74hc132-high-speed-cmos-logic-quad-2-input-schmitt-triggered-nand-gates) * Complete  
