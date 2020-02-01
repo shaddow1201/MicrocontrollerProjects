@@ -512,7 +512,7 @@ Power | 5V | 16 | VIN
 - [74HC139 Simple Test Code](74HC139/74HC139.ino)  
 - Images and Info
   - ![Function Table](74HC139/74HC139FunctionTable.png)
-  - ![Serial Out]()
+  - ![Serial Out](74HC139/74HC139_SerialOutput.png)
   - ![Arduino Circuit](74HC139/74HC139ArduinoCircuit.jpg)
 - Materials
   - arduino, leds, resistors, and wiring.
