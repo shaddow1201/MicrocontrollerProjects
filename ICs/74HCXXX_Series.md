@@ -1,7 +1,5 @@
-# Integrated Circuits (IC's)
+# 74HCXXX Series Integrated Circuits (IC's)
   This will serve as documentation and, a quick lookup for myself of IC's that i've investigated.  Adding other series as I investigate new circuits.
-
-## 74HCXXX Series
 
 ### 74HC00 High Speed CMOS Logic Quad 2-Input NAND Gates
 
@@ -486,6 +484,39 @@ VCC | 5V | 16 | arduino 5v to IC
   2. E3 is tied to 5v, E2 and E1 are tied to ground.
 
 ### 74HC139 High Speed CMOS Logic Dual 2-to-4 Line Decoders/Demultiplexers
+- Description - The ’HC139 and ’HCT139 devices contain two independent binary to one of four decoders each with a single active low enable input (1E or 2E). Data on the select inputs (1A0 and 1A1 or 2A0 and 2A1) cause one of the four normally high outputs to go low.  
+If the enable input is high all four outputs remain high. For demultiplexer operation the enable input is the data input. The enable input also functions as a chip select when these devices are cascaded. This device is functionally the same as the CD4556B and is pin compatible with it.  
+The outputs of these devices can drive 10 low power Schottky TTL equivalent loads. The HCT logic family is functionally as well as pin equivalent to the LS logic family
+- [74HC139 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc139.pdf)
+- [74HC139 Wiring]
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----:|:-----:|:-----:|:-----:
+EI1 | 2 | 1 | arduino to IC
+1A0 | 3 | 2 | arduino to IC
+1A1 | 4 | 3 | arduino to IC
+!1Y0 | XX | 4 | to LED 1
+!1Y1 | XX | 5 | to LED 2
+!1Y2 | XX | 6 | to LED 3
+!1Y3 | XX | 7 | to LED 4
+Gnd | Gnd | 8 | tie to Arduino GND
+!2Y0 | 3 | 9 | to LED 5
+!2Y1 | XX | 10 | to LED 6
+!2Y2 | XX | 11 | to LED 7
+!2Y3 | XX | 12 | to LED 8
+2A0 | 5 | 13 | arduino to IC
+2A1 | 6 | 14 | arduino to IC
+EI2 | 7 | 15 | arduino to IC
+Power | 5V | 16 | VIN
+
+- [74HC139 Simple Test Code](74HC139/74HC139.ino)  
+- Images and Info
+  - ![Function Table](74HC139/74HC139FunctionTable.png)
+  - ![Serial Out]()
+  - ![Arduino Circuit](74HC139/74HC139ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes:
 
 ### 74HC157 High Speed CMOS Logic Quad 2-Input Multiplexers
 
