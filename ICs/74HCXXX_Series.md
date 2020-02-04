@@ -488,7 +488,7 @@ VCC | 5V | 16 | arduino 5v to IC
 If the enable input is high all four outputs remain high. For demultiplexer operation the enable input is the data input. The enable input also functions as a chip select when these devices are cascaded. This device is functionally the same as the CD4556B and is pin compatible with it.  
 The outputs of these devices can drive 10 low power Schottky TTL equivalent loads. The HCT logic family is functionally as well as pin equivalent to the LS logic family
 - [74HC139 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc139.pdf)
-- [74HC139 Wiring]
+- [74HC139 Wiring]()
 
 **Type**|**Arduino Pin**|**IC pin**|**Detail**
 -----:|:-----:|:-----:|:-----:
@@ -519,6 +519,37 @@ Power | 5V | 16 | VIN
 - Notes:
 
 ### 74HC157 High Speed CMOS Logic Quad 2-Input Multiplexers
+- Description - These data selectors/multiplexers contain inverters and drivers to supply full data selection to the four output gates. A separate strobe (G) input is provided. A 4-bit word is selected from one of two sources and is routed to the four outputs. The ’HC157 devices present true data.
+- [74HC157 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc157.pdf)
+- Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!A/B | 2 | 1 | arduino to IC
+1A | 3 | 2 | arduino to IC
+1B | 4 | 3 | arduino to IC
+1Y | XX | 4 | to LED 1
+2A | 5 | 5 | arduino to IC
+2B | 6 | 6 | arduino to IC
+2Y | XX | 7 | to LED 2
+Gnd | Gnd | 8 | tie to Arduino GND
+3Y | XX | 9 | to LED 3
+3B | 7 | 10 | arduino to IC
+3A | 8 | 11 | arduino to IC
+4Y | XX | 12 | to LED 4
+4B | 9 | 13 | arduino to IC
+4A | 10 | 14 | arduino to IC
+!G | 11 | 15 | arduino to IC
+Power | 5V | 16 | VIN
+
+- [74HC157 Simple Test Code](74HC157/74HC157.ino)  
+- Images and Info
+  - ![Function Table](74HC157/74HC157FunctionTable.png)
+  - ![Serial Out](74HC157/74HC157SerialOutput.png)
+  - ![Arduino Circuit](74HC157/74HC157ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes:
 
 ### 74HC163 High Speed CMOS Logic 4-Bit Binary Counter with Synchronous Reset
 
