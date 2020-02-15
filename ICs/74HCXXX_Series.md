@@ -665,8 +665,80 @@ Power | 5V | 16 | VIN
 - Notes:
 
 ### 74HC244 High Speed CMOS Logic Non-Inverting Octal Buffers/Line Drivers with 3-State Outputs
+- Description - The SNx4HC244 octal buffers and line drivers are designed specifically to improve both the performance and density of 3-state memory address drivers, clock drivers, and bus-oriented receivers and transmitters. The SNx4HC244 devices are organized as two 4-bit buffers and drivers with separate outputenable (OE) inputs. When OE is low, the device passes noninverted data from the A inputs to the Y outputs. When OE is high, the outputs are in the high-impedance state.
+
+- [74HC244 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc244.pdf)
+- Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!1OE | 2 | 1 | arduino to IC
+1A1 | 3 | 2 | arduino to IC
+2Y4 | XX | 3 | to LED 8
+1A2 | 4 | 4 | arduino to IC
+2Y3 | XX | 5 | to LED 7
+1A3 | 5 | 6 | arduino to IC
+2Y2 | XX | 7 | to LED 6
+1A4 | 6 | 8 | arduino to IC
+2Y1 | XX | 9 | to LED 5
+Gnd | Gnd | 10 | tie to Arduino GND
+2A1 | 7 | 11 | arduino to IC
+1Y4 | XX | 12 | to LED 4
+2A2 | 8 | 13 | arduino to IC
+1Y3 | XX | 14 | to LED 3
+2A3 | 9 | 15 | arduino to IC
+1Y2 | XX | 16 | to LED 2
+2A4 | 10 | 17 | arduino to IC
+1Y1 | XX | 18 | to LED 1
+!2OE | 11 | 19 | arduino to IC
+Power | 5V | 20 | VIN
+
+- [74HC244 Simple Test Code](74HC244/74HC244.ino)
+- ![Function Diagram](74HC244/74HC244_LogicFunction.png)
+- Images and Info
+  - ![Serial Out](74HC244/74HC244_SerialOutput.png)
+  - ![Arduino Circuit](74HC244/74HC244_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes:
 
 ### 74HC245 High Speed CMOS Logic Non-Inverting Octal-Bus Transceivers with 3-State Outputs
+- Description - These octal bus transceivers are designed for asynchronous two-way communication between data buses. The control-function implementation minimizes external timing requirements.  
+The devices allow data transmission from the A bus to the B bus or from the B bus to the A bus, depending on the logic level at the direction-control (DIR) input. The output-enable (OE) input can be used to disable the device so that the buses are effectively isolated.
+- [74HC245 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc245.pdf)
+- Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+DIR | 2 | 1 | arduino to IC
+A1 | 3 | 2 | arduino to IC
+A2 | 4 | 3 | arduino to IC
+A3 | 5 | 4 | arduino to IC
+A4 | 6 | 5 | arduino to IC
+A5 | 7 | 6 | arduino to IC
+A6 | 8 | 7 | arduino to IC
+A7 | 9 | 8 | arduino to IC
+A8 | 10 | 9 | arduino to IC
+Gnd | Gnd | 10 | tie to Arduino GND
+B8 | XX | 11 | to LED 8
+B7 | XX | 12 | to LED 7
+B6 | XX | 13 | to LED 6
+B5 | XX | 14 | to LED 5
+B4 | XX | 15 | to LED 4
+B3 | XX | 16 | to LED 3
+B2 | XX | 17 | to LED 2
+B1 | XX | 18 | to LED 1
+!OE | 11 | 19 | arduino to IC
+Power | 5V | 20 | VIN
+
+- [74HC245 Simple Test Code](74HC245/74HC245.ino)
+- ![Function Table](74HC245/74HC245_FunctionTable.png)
+- Images and Info
+  - ![Serial Out](74HC245/74HC245_SerialOutput.png)
+  - ![Arduino Circuit](74HC245/74HC245_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes:
 
 ### 74HC273 High Speed CMOS Logic Octal D-Type Flip-Flops with Reset
 

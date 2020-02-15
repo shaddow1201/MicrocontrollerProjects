@@ -38,8 +38,8 @@ I bought an 'assortment' of ICs, and thought i'd see if i could find out what th
 -[74HC164 High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register](74HCXXX_Series.md#74hc164-high-speed-cmos-logic-8-bit-serial-in-parallel-out-shift-register) *Complete  
 -[74HC165 High Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register](74HCXXX_Series.md#74hc165-high-speed-cmos-logic-8-bit-parallel-in-serial-out-shift-register) *Complete  
 -[74HC174 High Speed CMOS Logic Hex D-Type Flip-Flops with Reset](74HCXXX_Series.md#74HC174-High-Speed-CMOS-Logic-Hex-D-Type-Flip-Flops-with-Reset) *Complete  
--[74HC244 High Speed CMOS Logic Non-Inverting Octal Buffers/Line Drivers with 3-State Outputs](74HCXXX_Series.md#74HC244-High-Speed-CMOS-Logic-Non-Inverting-Octal-Buffers-Line-Drivers-with-3-State-Outputs)  
--[74HC245 High Speed CMOS Logic Non-Inverting Octal-Bus Transceivers with 3-State Outputs](74HCXXX_Series.md#74HC245-High-Speed-CMOS-Logic-Non-Inverting-Octal-Bus-Transceivers-with-3-State-Outputs)  
+-[74HC244 High Speed CMOS Logic Non-Inverting Octal Buffers/Line Drivers with 3-State Outputs](74HCXXX_Series.md#74HC244-High-Speed-CMOS-Logic-Non-Inverting-Octal-Buffers-Line-Drivers-with-3-State-Outputs) *Complete  
+-[74HC245 High Speed CMOS Logic Non-Inverting Octal-Bus Transceivers with 3-State Outputs](74HCXXX_Series.md#74HC245-High-Speed-CMOS-Logic-Non-Inverting-Octal-Bus-Transceivers-with-3-State-Outputs) *Complete  
 -[74HC273 High Speed CMOS Logic Octal D-Type Flip-Flops with Reset](74HCXXX_Series.md#74HC273-High-Speed-CMOS-Logic-Octal-D-Type-Flip-Flops-with-Reset)  
 -[74HC373 High Speed CMOS Logic Octal Transparent Latches with 3-State Outputs](74HCXXX_Series.md#74HC373-High-Speed-CMOS-Logic-Octal-Transparent-Latches-with-3-State-Outputs)  
 -[74HC374 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs](74HCXXX_Series.md#74HC374-High-Speed-CMOS-Logic-Octal-Positive-Edge-Triggered-D-Type-Flip-Flops-with-3-State-Outputs)  
