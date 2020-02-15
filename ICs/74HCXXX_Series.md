@@ -552,6 +552,38 @@ Power | 5V | 16 | VIN
 - Notes:
 
 ### 74HC163 High Speed CMOS Logic 4-Bit Binary Counter with Synchronous Reset
+- Description - These synchronous, presettable counters feature an internal carry look-ahead for application in high-speed counting designs. The ’HC163 devices are 4-bit binary counters. Synchronous
+operation is provided by having all flip-flops clocked simultaneously so that the outputs change coincident with each other when instructed by the count-enable (ENP, ENT) inputs and internal gating. This mode of operation eliminates the output counting spikes normally associated with synchronous (ripple-clock) counters. A buffered clock (CLK) input triggers the four flip-flops on the rising positive-going) edge of the clock waveform.
+[74HC163 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc163.pdf)
+Wiring
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!CLR | 2 | 1 | arduino to IC
+CLK | 3 | 2 | arduino to IC
+A | 4 | 3 | arduino to IC
+B | 5 | 4 | arduino to IC
+C | 6 | 5 | arduino to IC
+D | 7 | 6 | arduino to IC
+ENP | 8 | 7 | arduino to IC
+Gnd | Gnd | 8 | tie to Arduino GND
+!LOAD | 9 | 9 | arduino to IC
+ENT | 10 | 10 | arduino to IC
+QD | XX | 11 | to LED 4
+QC | XX | 12 | to LED 3
+QB | XX| 13 | to LED 2
+QA | XX | 14 | to LED 1
+RCO | XX | 15 | to LED 5
+Power | 5V | 16 | VIN
+
+- [74HC163 Simple Test Code](74HC163/74HC163.ino)  
+- ![Function Diagram](74HC163/74HC163_FunctionDiagram.png)
+- Images and Info
+  - ![Serial Out](74HC163/74HC163_SerialOut.png)
+  - ![Arduino Circuit](74HC163/74HC163_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes:
 
 ### 74HC164 High Speed CMOS Logic 8-Bit Serial-In/Parallel-Out Shift Register
 
