@@ -631,6 +631,38 @@ Power | 5V | 14 | VIN
 - Notes: easy input for high/low digital reads.
   
 ### 74HC174 High Speed CMOS Logic Hex D-Type Flip-Flops with Reset
+- Description - These positive-edge-triggered D-type flip-flops have a direct clear (CLR) input.
+Information at the data (D) inputs meeting the setup time requirements is transferred to the outputs on the positive-going edge of the clock (CLK) pulse. Clock triggering occurs at a particular voltage level and is not directly related to the transition time of the positive-going edge of CLK. When CLK is at either the high or low level, the D input has no effect at the output.  
+- [74HC174 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc174.pdf)
+- Wiring  
+
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!CLR | 2 | 1 | arduino to IC
+1Q | XX | 2 | to LED 1
+1D | 3 | 3 | arduino to IC
+2D | 4 | 4 | arduino to IC
+2Q | XX | 5 | to LED 2
+3D | 5 | 6 | arduino to IC
+3Q | XX | 7 | to LED 3
+Gnd | Gnd | 8 | tie to Arduino GND
+CLK | 6 | 9 | arduino to IC
+4Q | XX | 10 | to LED 4
+4D | 7 | 11 | arduino to IC
+5Q | XX | 12 | to LED 5
+5D | 8 | 13 | arduino to IC
+6D | 9 | 14 | arduino to IC
+6Q | XX | 15 | to LED 6
+Power | 5V | 16 | VIN
+
+- [74HC174 Simple Test Code](74HC174/74HC174.ino)
+- ![Function Diagram](74HC174/74HC174_FunctionTable.png)
+- Images and Info
+  - ![Serial Out](74HC174/74HC174_SerialOutput.png)
+  - ![Arduino Circuit](74HC174/74HC174_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes:
 
 ### 74HC244 High Speed CMOS Logic Non-Inverting Octal Buffers/Line Drivers with 3-State Outputs
 
