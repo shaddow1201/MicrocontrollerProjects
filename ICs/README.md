@@ -40,14 +40,11 @@ I bought an 'assortment' of ICs, and thought i'd see if i could find out what th
 -[74HC174 High Speed CMOS Logic Hex D-Type Flip-Flops with Reset](74HCXXX_Series.md#74HC174-High-Speed-CMOS-Logic-Hex-D-Type-Flip-Flops-with-Reset) *Complete  
 -[74HC244 High Speed CMOS Logic Non-Inverting Octal Buffers/Line Drivers with 3-State Outputs](74HCXXX_Series.md#74HC244-High-Speed-CMOS-Logic-Non-Inverting-Octal-Buffers-Line-Drivers-with-3-State-Outputs) *Complete  
 -[74HC245 High Speed CMOS Logic Non-Inverting Octal-Bus Transceivers with 3-State Outputs](74HCXXX_Series.md#74HC245-High-Speed-CMOS-Logic-Non-Inverting-Octal-Bus-Transceivers-with-3-State-Outputs) *Complete  
--[74HC273 High Speed CMOS Logic Octal D-Type Flip-Flops with Reset](74HCXXX_Series.md#74HC273-High-Speed-CMOS-Logic-Octal-D-Type-Flip-Flops-with-Reset)  
--[74HC373 High Speed CMOS Logic Octal Transparent Latches with 3-State Outputs](74HCXXX_Series.md#74HC373-High-Speed-CMOS-Logic-Octal-Transparent-Latches-with-3-State-Outputs)  
+-[74HC273 High Speed CMOS Logic Octal D-Type Flip-Flops with Reset](74HCXXX_Series.md#74HC273-High-Speed-CMOS-Logic-Octal-D-Type-Flip-Flops-with-Reset) *Complete   
+-[74HC373 High Speed CMOS Logic Octal Transparent Latches with 3-State Outputs](74HCXXX_Series.md#74HC373-High-Speed-CMOS-Logic-Octal-Transparent-Latches-with-3-State-Outputs) *Complete   
 -[74HC374 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs](74HCXXX_Series.md#74HC374-High-Speed-CMOS-Logic-Octal-Positive-Edge-Triggered-D-Type-Flip-Flops-with-3-State-Outputs)  
 -[74HC393 High Speed CMOS Logic Dual 4-Stage Binary Counters](74HCXXX_Series.md#74HC393-High-Speed-CMOS-Logic-Dual-4-Stage-Binary-Counters)  
 -[74HC573 High Speed CMOS Logic Octal Transparent Latches with 3-State Outputs](74HCXXX_Series.md#74HC573-High-Speed-CMOS-Logic-Octal-Transparent-Latches-with-3-State-Outputs)  
 -[74HC574 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs](74HCXXX_Series.md#74HC574-High-Speed-CMOS-Logic-Octal-Positive-Edge-Triggered-D-Type-Flip-Flops-with-3-State-Outputs)  
 -[74HC595 8 Bit Shift Register With 3 State Output Registers](74HCXXX_Series.md#74hc595-8-bit-shift-register-with-3-state-output-registers) *Partial
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

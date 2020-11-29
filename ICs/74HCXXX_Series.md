@@ -741,8 +741,86 @@ Power | 5V | 20 | VIN
 - Notes:
 
 ### 74HC273 High Speed CMOS Logic Octal D-Type Flip-Flops with Reset
+- Description - The SNx4HC273 devices are positive-edge-triggered
+D-type flip-flops with a direct active low clear (CLR)
+input.  Information at the data (D) inputs meeting the setup
+time requirements is transferred to the Q outputs on
+the positive-going edge of the clock (CLK) pulse.
+Clock triggering occurs at a particular voltage level
+and is not related directly to the transition time of the
+positive-going pulse. When CLK is at either the high
+or low level, the D input has no effect at the output.
+- [74HC273 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc273.pdf)
+- Wiring
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!CLR | 2 | 1 | arduino to IC
+1Q | XX | 2 | to LED 1
+1D | 3 | 3 | arduino to IC
+2D | 4 | 4 | arduino to IC
+2Q | XX | 5 | to LED 2
+3Q | XX | 6 | arduino to IC
+3D | 5 | 7 | to LED 3
+4D | 6 | 8 | arduino to IC
+4Q | XX | 9 | to LED 4
+Gnd | Gnd | 10 | tie to Arduino GND
+CLK | 7 | 11 | arduino to IC
+5Q | XX | 12 | to LED 5
+5D | 8 | 13 | arduino to IC
+6D | 9 | 14 | arduino to IC
+6Q | XX | 15 | to LED 6
+7Q | XX | 16 | to LED 7
+7D | 10 | 17 | arduino to IC
+8D | 11 | 18 | arduino to IC
+8Q | XX | 19 | to LED 8
+Power | 5V | 20 | VIN
 
+- [74HC273 Simple Test Code](74HC273/74HC273.ino)
+- ![Function Table](74HC273/74HC273_FunctionTable.png)
+- Images and Info
+  - ![Serial Out](74HC273/74HC273_SerialOutput.png)
+  - ![Arduino Circuit](74HC273/74HC273_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes:
+  
 ### 74HC373 High Speed CMOS Logic Octal Transparent Latches with 3-State Outputs
+Description - These 8-bit latches feature 3-state outputs designed specifically for driving highly capacitive or relatively low-impedance loads. They are particularly suitable for implementing buffer registers, I/O ports, bidirectional bus drivers, and working registers. The eight latches of the ’HC373 devices are transparent D-type latches. While the latch-enable (LE) input is high, the Q outputs follow the data (D) inputs. When LE is taken low, the Q outputs are latched at the levels that were set up at the D inputs.  
+- [74HC373 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc373.pdf)
+- Wiring
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!OE | 2 | 1 | arduino to IC
+1Q | XX | 2 | to LED 1
+1D | 3 | 3 | arduino to IC
+2D | 4 | 4 | arduino to IC
+2Q | XX | 5 | to LED 2
+3Q | XX | 6 | to LED 3
+3D | 5 | 7 | arduino to IC
+4D | 6 | 8 | arduino to IC
+4Q | XX | 9 | to LED 4
+Gnd | Gnd | 10 | tie to Arduino GND
+LE | 7 | 11 | arduino to IC
+5Q | XX | 12 | to LED 5
+5D | 8 | 13 | arduino to IC
+6D | 9 | 14 | arduino to IC
+6Q | XX | 15 | to LED 6
+7Q | XX | 16 | to LED 7
+7D | 10 | 17 | arduino to IC
+8D | 11 | 18 | arduino to IC
+8Q | XX | 19 | to LED 8
+Power | 5V | 20 | VIN
+  
+[74HC373 Simple Test Code](74HC373/74HC373.ino)
+- ![Function Table](74HC373/74HC373_FunctionTable.png)
+- Images and Info
+  - ![Serial Out](74HC373/74HC373_SerialOutput.png)
+  - ![Arduino Circuit](74HC373/74HC373_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes:
 
 ### 74HC374 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs
 
