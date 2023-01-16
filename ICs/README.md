@@ -48,3 +48,32 @@ I bought an 'assortment' of ICs, and thought i'd see if i could find out what th
 -[74HC574 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs](74HCXXX_Series.md#74HC574-High-Speed-CMOS-Logic-Octal-Positive-Edge-Triggered-D-Type-Flip-Flops-with-3-State-Outputs)  
 -[74HC595 8 Bit Shift Register With 3 State Output Registers](74HCXXX_Series.md#74hc595-8-bit-shift-register-with-3-state-output-registers) *Partial
 
+### CD4000 Series Links
+-[CD4001 CMOS Quad 2 Input NOR Gates](https://www.ti.com/lit/ds/symlink/cd4001b-mil.pdf) *Uncomplete
+-[CD4011 CMOS Quad 2 Input NAND Gates](https://www.ti.com/lit/ds/symlink/cd4011b-mil.pdf) *Uncomplete
+-[CD4013 CMOS Dual D-Type Flip-Flop](https://www.ti.com/lit/ds/symlink/cd4013b-mil.pdf) *Uncomplete
+-[CD4017 CMOS Decade Counter with 10 Decoded Outputs](https://www.ti.com/lit/ds/symlink/cd4017b-mil.pdf) *Uncomplete
+-[CD4021 8-Stage Static Shift Register](https://www.ti.com/lit/ds/symlink/cd4021b-mil.pdf) *Uncomplete
+-[CD4022 CMOS Octal Counter with 8 Decoded Outputs](https://www.ti.com/lit/ds/symlink/cd4022b-mil.pdf) *Uncomplete
+-[CD4023 CMOS Triple 3 Input NAND Gates](https://www.ti.com/lit/ds/symlink/cd4023b-mil.pdf) *Uncomplete
+-[CD4025 CMOS Triple 3 Input NOR Gates](https://www.ti.com/lit/ds/symlink/cd4025b-mil.pdf) *Uncomplete
+-[CD4026 CMOS Decade Counter with 7-Segment Display Outputs and Display Enable](https://www.ti.com/lit/ds/symlink/cd4026b.pdf) *Uncomplete
+-[CD4027 CMOS Dual J-K Flip-Flop](https://www.ti.com/lit/ds/symlink/cd4027b.pdf) *Uncomplete
+-[CD4046 CMOS Micorpower Phase-Locked Loop](https://www.ti.com/lit/ds/symlink/cd4046b.pdf) *Uncomplete
+-[CD4049 CMOS Hex Inverting Buffer and Converter](https://www.ti.com/lit/ds/symlink/cd4049ub.pdf) *Uncomplete
+-[CD4050 CMOS Hex Noninverting Buffer and Converter](https://www.ti.com/lit/ds/symlink/cd4050b.pdf) *Uncomplete
+-[CD4051 CMOS Single 8-Channel Analog Multiplexer/Demultiplexer with Logic-Level Conversion](https://www.ti.com/lit/ds/symlink/cd4051b.pdf) *Uncomplete
+-[CD4052 CMOS Single 8-Channel Analog Multiplexer/Demultiplexer with Logic-Level Conversion](https://www.ti.com/lit/ds/symlink/cd4052b.pdf) *Uncomplete
+-[CD4053 CMOS Single 8-Channel Analog Multiplexer/Demultiplexer with Logic-Level Conversion](https://www.ti.com/lit/ds/symlink/cd4053b.pdf) *Uncomplete
+-[CD4060 CMOS 14-Stage Ripple-Carry Binary Counter/Divider and Oscillator](https://www.ti.com/lit/ds/symlink/cd4060b.pdf) *Uncomplete
+-[CD4066 CMOS Quad Bilateral Switch](https://www.ti.com/lit/ds/symlink/cd4066b.pdf) *Uncomplete
+-[CD4069 CMOS hex inverter](https://www.ti.com/lit/ds/symlink/cd4069ub.pdf) *Uncomplete
+-[CD4070 CMOS Quad Exclusive-OR Gate](https://www.ti.com/lit/ds/symlink/cd4070b.pdf) *Uncomplete
+-[CD4071 CMOS Quad 2-Input OR Gate](https://www.ti.com/lit/ds/symlink/cd4071b.pdf) *Uncomplete
+-[CD4072 CMOS Dual 4-Input Or Gate](https://www.ti.com/lit/ds/symlink/cd4072b.pdf) *Uncomplete
+-[CD4073 CMOS Triple 3-Input And Gate](https://www.ti.com/lit/ds/symlink/cd4073b.pdf) *Uncomplete
+-[CD4075 CMOS Triple 3-Input Or Gate](https://www.ti.com/lit/ds/symlink/cd4075b.pdf) *Uncomplete
+-[CD4081 CMOS Quad 2-Input And Gate](https://www.ti.com/lit/ds/symlink/cd4081b.pdf) *Uncomplete
+-[CD4082 CMOS Dual 4-Input And Gate](https://www.ti.com/lit/ds/symlink/cd4082b.pdf) *Uncomplete
+-[CD4093 CMOS Quad 2-Input NAND Schmitt Triggers](https://www.ti.com/lit/ds/symlink/cd4093b.pdf) *Uncomplete
+-[CD4094 CMOS 8-Stage Shift-and-Stoe Bus Register](https://www.ti.com/lit/ds/symlink/cd4094b.pdf) *Uncomplete

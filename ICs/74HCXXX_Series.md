@@ -823,13 +823,155 @@ Power | 5V | 20 | VIN
 - Notes:
 
 ### 74HC374 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs
+- Description - These 8-bit flip-flops feature 3-state outputs designed specifically for driving highly capacitive or relatively low-impedance loads. They are particularly suitable for implementing buffer registers, I/O ports, bidirectional bus drivers, and working registers. 
+The eight flip-flops of the ’HC374 devices are edge-triggered D-type flip-flops. On the positive transition of the clock (CLK) input, the Q outputs are set to the logic levels that were set up at the data (D) inputs.
+An output-enable (OE) input places the eight outputs in either a normal logic state (high or low logic levels) or the high-impedance state. In the high-impedance state, the outputs neither load nor drive the bus lines significantly. The high-impedance state and increased drive provide the capability to drive bus lines without interface or pullup components.
 
+- [74HC374 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc374.pdf)
+- Wiring
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!OE | 2 | 1 | arduino to IC
+1Q | XX | 2 | to LED 1
+1D | 3 | 3 | arduino to IC
+2D | 4 | 4 | arduino to IC
+2Q | XX | 5 | to LED 2
+3Q | XX | 6 | to LED 3
+3D | 5 | 7 | arduino to IC
+4D | 6 | 8 | arduino to IC
+4Q | XX | 9 | to LED 4
+Gnd | Gnd | 10 | tie to Arduino GND
+CLK | 7 | 11 | arduino to IC
+5Q | XX | 12 | to LED 5
+5D | 8 | 13 | arduino to IC
+6D | 9 | 14 | arduino to IC
+6Q | XX | 15 | to LED 6
+7Q | XX | 16 | to LED 7
+7D | 10 | 17 | arduino to IC
+8D | 11 | 18 | arduino to IC
+8Q | XX | 19 | to LED 8
+Power | 5V | 20 | VIN
+  
+[74HC374 Simple Test Code](74HC374/74HC374.ino)
+- ![Function Table](74HC374/74HC374_FunctionTable.png)
+- Images and Info
+  - ![Serial Out](74HC374/74HC374_SerialOutput.png)
+  - ![Arduino Circuit](74HC374/74HC374_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes:
 ### 74HC393 High Speed CMOS Logic Dual 4-Stage Binary Counters
-
+Description - 
+- [74HC393 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc393.pdf)
+- Wiring
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!OE | 2 | 1 | arduino to IC
+1Q | XX | 2 | to LED 1
+1D | 3 | 3 | arduino to IC
+2D | 4 | 4 | arduino to IC
+2Q | XX | 5 | to LED 2
+3Q | XX | 6 | to LED 3
+3D | 5 | 7 | arduino to IC
+4D | 6 | 8 | arduino to IC
+4Q | XX | 9 | to LED 4
+Gnd | Gnd | 10 | tie to Arduino GND
+LE | 7 | 11 | arduino to IC
+5Q | XX | 12 | to LED 5
+5D | 8 | 13 | arduino to IC
+6D | 9 | 14 | arduino to IC
+6Q | XX | 15 | to LED 6
+7Q | XX | 16 | to LED 7
+7D | 10 | 17 | arduino to IC
+8D | 11 | 18 | arduino to IC
+8Q | XX | 19 | to LED 8
+Power | 5V | 20 | VIN
+  
+[74HC573 Simple Test Code](74HC393/74HC393.ino)
+- ![Function Table](74HC393/74HC393_FunctionTable.png)
+- Images and Info
+  - ![Serial Out](74HC573/74HC393_SerialOutput.png)
+  - ![Arduino Circuit](74HC393/74HC393_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes: 
+- 
 ### 74HC573 High Speed CMOS Logic Octal Transparent Latches with 3-State Outputs
-
+- Description - 
+- [74HC573 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc573.pdf)
+- Wiring
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!OE | 2 | 1 | arduino to IC
+1Q | XX | 2 | to LED 1
+1D | 3 | 3 | arduino to IC
+2D | 4 | 4 | arduino to IC
+2Q | XX | 5 | to LED 2
+3Q | XX | 6 | to LED 3
+3D | 5 | 7 | arduino to IC
+4D | 6 | 8 | arduino to IC
+4Q | XX | 9 | to LED 4
+Gnd | Gnd | 10 | tie to Arduino GND
+LE | 7 | 11 | arduino to IC
+5Q | XX | 12 | to LED 5
+5D | 8 | 13 | arduino to IC
+6D | 9 | 14 | arduino to IC
+6Q | XX | 15 | to LED 6
+7Q | XX | 16 | to LED 7
+7D | 10 | 17 | arduino to IC
+8D | 11 | 18 | arduino to IC
+8Q | XX | 19 | to LED 8
+Power | 5V | 20 | VIN
+  
+[74HC573 Simple Test Code](74HC573/74HC573.ino)
+- ![Function Table](74HC573/74HC573_FunctionTable.png)
+- Images and Info
+  - ![Serial Out](74HC573/74HC573_SerialOutput.png)
+  - ![Arduino Circuit](74HC573/74HC573_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes: 
+  
 ### 74HC574 High Speed CMOS Logic Octal Positive-Edge-Triggered D-Type Flip-Flops with 3-State Outputs
-
+- Description - 
+- [74HC574 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc574.pdf)
+- Wiring
+  
+**Type**|**Arduino Pin**|**IC pin**|**Detail**
+-----|-----|-----|-----
+!OE | 2 | 1 | arduino to IC
+1Q | XX | 2 | to LED 1
+1D | 3 | 3 | arduino to IC
+2D | 4 | 4 | arduino to IC
+2Q | XX | 5 | to LED 2
+3Q | XX | 6 | to LED 3
+3D | 5 | 7 | arduino to IC
+4D | 6 | 8 | arduino to IC
+4Q | XX | 9 | to LED 4
+Gnd | Gnd | 10 | tie to Arduino GND
+LE | 7 | 11 | arduino to IC
+5Q | XX | 12 | to LED 5
+5D | 8 | 13 | arduino to IC
+6D | 9 | 14 | arduino to IC
+6Q | XX | 15 | to LED 6
+7Q | XX | 16 | to LED 7
+7D | 10 | 17 | arduino to IC
+8D | 11 | 18 | arduino to IC
+8Q | XX | 19 | to LED 8
+Power | 5V | 20 | VIN
+  
+[74HC574 Simple Test Code](74HC574/74HC574.ino)
+- ![Function Table](74HC574/74HC574_FunctionTable.png)
+- Images and Info
+  - ![Serial Out](74HC574/74HC574_SerialOutput.png)
+  - ![Arduino Circuit](74HC574/74HC574_ArduinoCircuit.jpg)
+- Materials
+  - arduino, leds, resistors, and wiring.
+- Notes: 
+  
 ### 74HC595 8 Bit Shift Register With 3 State Output Registers
 - Description - The SNx4HC595 devices contain an 8-bit, serial-in, parallel-out shift register that feeds an 8-bit D-type storage register. The storage register has parallel 3-state outputs. Separate clocks are provided for both the shift and storage register. The shift register has a direct overriding clear (SRCLR) input, serial (SER) input, and serial outputs for cascading. When the output-enable (OE) input is high, the outputs are in the high-impedance state.
 - [74HC595 Data Sheet](http://www.ti.com/lit/ds/symlink/sn74hc595.pdf)
